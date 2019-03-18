@@ -81,5 +81,9 @@ EOF;
         $html = preg_replace( '/src=[\'"](?!http|https:\/\/)(.*?)[\'"]/i', 'src="'.$this->domain.$path.'$1"', $html );
         $html = preg_replace( '/<link(.*?)href=[\'"](?!http|https:\/\/)(.*?)[\'"]/i', '<link$1 href="'.$this->domain.$path.'$2"', $html );
     }
+
+
+
+
 }
 

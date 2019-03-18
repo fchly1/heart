@@ -21,3 +21,14 @@ Heart V3 框架是一个简洁，实用，高效，遵循apache协议的php开�
 ![image](https://github.com/zl8762385/heart/blob/develop/resource/github/t5.png)
 ![image](https://github.com/zl8762385/heart/blob/develop/resource/github/t6.png)
 ![image](https://github.com/zl8762385/heart/blob/develop/resource/github/t7.png)
+
+后台管理
+/admin
+
+帐号：root 密码：123456
+
+修改数据库配置文件
+application\common\database.php
+
+数据库文件在根目录
+heart.sql

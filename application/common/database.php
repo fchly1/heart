@@ -19,7 +19,7 @@ return [
         //用户名
         'user' => 'root',
         //密码
-        'password' => 'v90v70v00',
+        'password' => 'root',
         //库名
         'db_name' => 'heart',
         //编码

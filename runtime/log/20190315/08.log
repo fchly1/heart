@@ -1,0 +1,6 @@
+[fatal] [2019.03.15 08:42:44] [Class '\controllers\admin\images' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/images/bgl_07.jpg|127.0.0.1]
+[fatal] [2019.03.15 08:42:44] [Class '\controllers\admin\images' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/images/bg_06.jpg|127.0.0.1]
+[fatal] [2019.03.15 08:42:44] [Class '\controllers\admin\images' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/images/bg_05.jpg|127.0.0.1]
+[fatal] [2019.03.15 08:42:44] [Class '\controllers\admin\images' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/images/bg_03.jpg|127.0.0.1]
+[fatal] [2019.03.15 08:42:44] [Class '\controllers\admin\images' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/images/bg01_r1_c1.jpg|127.0.0.1]
+[fatal] [2019.03.15 08:50:32] [syntax error, unexpected 'public' (T_PUBLIC)] [164行] [F:\work\heart-master\application\controllers\admin\special.php] [GET] [localhost:9011/admin/special/add|127.0.0.1]

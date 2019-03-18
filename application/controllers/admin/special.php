@@ -32,6 +32,8 @@ class special extends admin_base{
     public function __construct() {
         parent::__construct();
 
+        $this->domain = load_config( 'domain' );
+
         $this->db = load_model( 'admin_special' );
 
 
@@ -92,10 +94,20 @@ EOF;
             $infos = gpc( 'infos', 'P' );
 
             if( empty( $infos['name'] ) ) $this->show_message( '请输入专题名称(中文)' );
+            //if( empty( $infos['en_name'] ) ) $this->show_message( '请输入专题目录(英文)' );
 
             $infos['createtime'] = $infos['updatetime'] = time();
 
+
+
             if( is_file( $this->upload_path.$infos['zip'] ) ) {
+
+                /*if(!is_dir($this->special_path.'/'.$infos['en_name'])) {
+                    mkdir($this->special_path.'/'.$infos['en_name'], 0777, true);//创建目录保存解压内容
+                }*/
+
+                
+
                 $_file = new unzip();
                 $infos['directory'] = $_file->unzip( $this->upload_path.$infos['zip'], $this->special_path);
                 $infos['files'] = is_array( $_file->html_names ) ? implode( ',', $_file->html_names ) : '' ;
@@ -105,6 +117,47 @@ EOF;
                 }
 
                 $special_page = $this->special_path.$infos['directory'].'/';
+                
+
+                /***** css文件中图片路径替换  start *****/
+
+                $cssfilepath = $special_page.'css/';
+                //判断目标目录是否是文件夹
+                $file_arr = array();
+                if(is_dir($cssfilepath)){
+                    //打开
+                    if($dh = @opendir($cssfilepath)){
+                        //读取
+                    
+                        while(($file = readdir($dh)) !== false){
+
+                            if($file != '.' && $file != '..'){
+
+                                $file_arr[] = $file;
+                            }
+
+                        }
+                        //关闭
+                        closedir($dh);
+                    }
+                }
+                
+                if(count($file_arr)){
+                    //域名路径
+                    $path = str_replace( ROOT_PATH, '', $special_page );
+                    foreach($file_arr as $item){
+                        //判断是否存在这个文件
+                        if(is_file($cssfilepath.$item)){
+                            $origin_str = file_get_contents($cssfilepath.$item);
+                            $update_str = str_replace('../', $this->domain.$path, $origin_str);
+                            file_put_contents($cssfilepath.$item, $update_str);
+                        }
+                    }               
+                }
+
+                /***** css文件中图片路径替换  end *****/
+
+
 
                 //生成XML数据模板
                 $xml_data = [];
@@ -120,6 +173,8 @@ EOF;
 
                 $this->show_message( 'ZIP包不存在.' );
             }
+
+           
 
             if( $this->db->insert( $infos ) ) {
                  $this->show_message( '操作成功', make_url( __M__, __C__, 'index' ) );
@@ -230,4 +285,47 @@ EOF;
                 echo $block->get();
         }
     }
+
+
+    /**
+     * 生成专题页面
+     */
+
+    public function mark_html() {
+        $id = gpc( 'id' );
+        $type = gpc( 'type' );
+        $page_url = gpc( 'page_url' ) ? gpc( 'page_url' ) : 'index.html' ;
+
+        if( empty( $id ) ) $this->show_message( 'ID不能为空' );
+
+        $infos = $this->db->get_one( 'id,name,directory,files', [ 'id' =>$id ] );
+        if( empty( $infos ) ) $this->show_message( '专题不存在.' );
+        if( empty( $infos['directory'] ) ) $this->show_message( '专题解析,请查看创建专题时,解压ZIP是否正确.' );
+
+        $this->view->assign( 'infos', $infos );
+        //可视化编辑
+        if( !strstr( $infos['files'], $page_url ) ) $this->show_message( '视图不存在.' );
+
+        $xml_path = $this->special_path.$infos['directory'].'/'.$infos['directory'].'.xml';
+        $_xml = simplexml_load_file( $xml_path, 'SimpleXMLElement', LIBXML_NOCDATA );
+        $_method = 'page_'.explode( '.', $page_url )[0];
+        $html = (string)$_xml->body->{$_method};
+
+        $block = new block( $id );
+        $block->compile( $html );
+
+        
+        //echo $block->get();
+        if(is_file($this->special_path.$infos['directory'].'/'.$page_url)){
+        
+            $origin_str = fopen($this->special_path.$infos['directory'].'/'.$page_url,"w");
+            fwrite($origin_str,$block->get());
+            fclose($origin_str);
+        }
+
+        $this->show_message( '页面已经发布' );
+    }
+
+
+    
 }

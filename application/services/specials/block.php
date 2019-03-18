@@ -48,7 +48,27 @@ class block extends controller {
             $rs = $this->block( $v );
             $html = str_replace( $m[0][$k], $rs, $html );
         }
+        $this->html = $html;
+    }
 
+    /**
+     * 编译block
+     * 
+     * @param $html string html代码
+     */
+
+    public function compile( $html ) {
+        preg_match_all( '/<{(.*)}>/i', $html, $m );
+
+        if( empty( $m[1] ) ) return $this->html = $html;
+        foreach( $m[1] as $k => $v ) {
+            $v= preg_replace( '/block\((.*)\)/i', "$1", $v );
+            $v = str_replace( '\'', '', $v );
+            $v = str_replace( '"', '', $v );
+
+            $infos = $this->get_block( $v );
+            $html = str_replace( $m[0][$k], $infos['content'], $html );
+        }
         $this->html = $html;
     }
 

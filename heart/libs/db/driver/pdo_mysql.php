@@ -209,6 +209,7 @@ class pdo_mysql implements db_interface{
 		$this->filter_filed_value($value);
 
 		$sql = 'INSERT INTO '. $tblname .'('. $filed.') VALUES '.'('. $value .')';
+		
 		$this->execute($sql);
 		return $this->last_query;
 

@@ -112,6 +112,7 @@ abstract class model {
 
         //获取总数
         $total = $this->db->get_one( 'count(*) as total' , $this->_name, $where)['total'];
+        
 
         $page  = new page( $total, $pagesize );
         $limit = $page->limit;

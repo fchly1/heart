@@ -44,6 +44,6 @@ class index extends admin_base{
     }
 
     public function phpinfo() {
-        phpinfo();
+        //phpinfo();
     }
 }

@@ -10,7 +10,7 @@
 
 return [
     //网站域名
-    'domain' => 'http://v3.heartphp.com/',
+    'domain' => 'http://localhost:9011/',
 
     //后台管理 前端模板
     'front_admin' => [

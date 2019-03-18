@@ -16,8 +16,11 @@
                     <?php foreach( $files_arr as $k => $v ):?>
                     <tr>
                         <td><?=$v?></td>
-                        <td style="width:10%">
+                        <td style="width:20%">
                             <a target="_blank" href="<?=make_url( __M__, __C__, 'view', [ 'id='.$infos['id'], 'page_url='.urlencode( $v ) ] )?>" class="btn btn-primary btn-xs">可视化编辑</a>
+                        
+                            <a href="<?=make_url( __M__, __C__, 'mark_html', ['id='.$infos['id'],'page_url='.$v] )?>" class="btn btn-success btn-xs">发布</a>
+
                         </td>
                     </tr>
                     <?php endforeach;?>
