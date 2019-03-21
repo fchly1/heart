@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "microsoft yahei", arial;
+  font-size: 12px;
+  color: #212121;
+  letter-spacing: 1px;
+}
+img {
+  border: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #212121;
+}
+a:visited {
+  color: #212121;
+}
+.zt-wrap {
+  width: 1000px;
+  margin: 0px auto;
+}
+.zt-title {
+  width: 1000px;
+  margin: 0px auto;
+  height: 65px;
+  position: relative;
+}
+.zt-title .title-left,
+.zt-title .title-right {
+  position: absolute;
+}
+.clear {
+  clear: both;
+}
+.tabs li {
+  cursor: pointer;
+}
+.tabs li.on h3 {
+  color: #01736D;
+}
+.tab-content ul {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  display: none;
+}
+.tab-content ul.active {
+  display: block;
+}
+.slide-text {
+  display: none;
+  *background-image: url("http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/slidetxt.png");
+}
+.zt-box {
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+/*专题头部*/
+.zt-head {
+  height: 299px;
+  background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/bg_head2.png);
+}
+.zt-head .head-body {
+  position: relative;
+}
+.zt-head .head-body .headtit {
+  position: absolute;
+  top: 104px;
+  left: 47px;
+}
+/*导语*/
+.intro {
+  height: 196px;
+  background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/bg_03.png);
+}
+.intro .intro-body {
+  padding-top: 91px;
+}
+.intro .intro-body p {
+  color: #FFFFFF;
+  font-size: 12px;
+  width: 791px;
+  margin: 0px auto;
+  line-height: 1.5;
+}
+/*专访视频 */
+.netviewvideo {
+  height: 592px;
+  background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/bg_04.png);
+}
+.netviewvideo .netviewvideo-body {
+  padding-top: 140px;
+}
+/*专业技术*/
+.technical {
+  height: 668px;
+  background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/bg_05.png);
+}
+.technical .technical-body {
+  padding-top: 127px;
+}
+/*医生风采 */
+.octors {
+  height: 689px;
+  background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/bg_06.png);
+}
+.octors .octors-body {
+  padding-top: 123px;
+}
+/*结语*/
+.pilogue {
+  height: 254px;
+  background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/bg_07.png);
+}
+.pilogue .pilogue-body {
+  padding-top: 105px;
+}
+.pilogue .pilogue-body p {
+  width: 790px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 196px;
+}
+/*# sourceMappingURL=style.css.map */

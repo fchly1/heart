@@ -29,19 +29,20 @@
                 <div class="form-group">
                     <label class="col-sm-2 col-xs-4 control-label">专题名称(中文)</label>
                     <div class="col-lg-3 col-sm-4 col-xs-4 input-group">
-                        <input type="text" class="form-control" name="infos[name]" value="" color="#000000">
+                        <input type="text"  class="form-control" name="infos[name]" value="" color="#000000" id="txtChinese">
                     </div>
                 </div>
 
-               <!-- 
+                
                 <div class="form-group">
                     <label class="col-sm-2 col-xs-4 control-label">专题目录(英文)</label>
                     <div class="col-lg-3 col-sm-4 col-xs-4 input-group">
-                        <input type="text" class="form-control" name="infos[en_name]" value="" color="#000000">
-                        <span class="help-block">例如：http://www.xx.com/special_names</span>
+                        <input type="text" class="form-control" id="urlpath" name="infos[urlpath]" value="" color="#000000">
+                        <span class="help-block">例如：http://www.xx.com/special/special_names</span>
+                        <a   onclick="query()" href="javascript:void(0)" style="position:absolute;right: -138px;top: 6px;color:red">把专题名称转换成拼音 </a>
                     </div>
                 </div>
-                
+                <!--
                 <div class="form-group">
                     <label class="col-sm-2 col-xs-4 control-label">文件名</label>
                     <div class="col-lg-3 col-sm-4 col-xs-4 input-group">
@@ -97,7 +98,32 @@
         </div>
 
         </form>
+        
     </div>
     </div>
 </section>
+<script src="<?=$domain.$js?>makepy.js"></script>
+<script>
+ //转换中文标题为英文字母
+function query() {
+  var str = document.getElementById('txtChinese').value.trim();
+  if (str == '') return;
+  var arrRslt = getPinYinFirstCharacter(str);
+
+
+   document.getElementById('urlpath').value = Trim(arrRslt,'g');
+}
+
+//去除字符中的空格
+function Trim(str,is_global)
+  {
+   var result;
+   result = str.replace(/(^\s+)|(\s+$)/g,"");
+   if(is_global.toLowerCase()=="g")
+   {
+    result = result.replace(/\s/g,"");
+    }
+   return result;
+}
+</script>
 <?php tpl_include( 'public/footer' )?>

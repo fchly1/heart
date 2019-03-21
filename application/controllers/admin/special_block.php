@@ -105,9 +105,27 @@ class special_block extends admin_base{
 
 
             if( $this->db->insert( $infos ) ) {
-                 $this->show_message( '操作成功' );
+                if(gpc( 'source', 'P' ) == 'ajax'){
+                    $restlt = [];
+                    $restlt['msg'] = '添加成功';
+                    $restlt['code'] = 0;
+                    $this->ajaxReturn($restlt);
+                    return;
+
+
+                }
+                $this->show_message( '操作成功' );
+
             } else {
+                if(gpc( 'source', 'P' ) == 'ajax'){
+                    $restlt = [];
+                    $restlt['msg'] = '添加失败';
+                    $restlt['code'] = 20;
+                    $this->ajaxReturn($restlt);
+                    return;
+                }
                 $this->show_message( '操作失败,请联系管理员.' );
+
             }
         }
 
@@ -131,7 +149,9 @@ class special_block extends admin_base{
      * */
     public function edit() {
         if( gpc( 'dosubmit', 'P' ) ) {
+
             $infos = gpc( 'infos', 'P' );
+
             $id = gpc( 'id', 'P' );
 
             if( empty( $infos['name'] ) ) $this->show_message( '请输入碎片键值' );

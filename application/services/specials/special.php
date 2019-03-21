@@ -3,7 +3,7 @@
  * 专题
  *
  * @copyright			(C) 2016 Heart
- * @author              maoxiaoqi <15501100090@163.com> <qq:3677989>
+ * @author              maoxiaoqi <15501100090@163.com> <qq:3677989>  qiancheng <1969662705@qq.com>
  *
  * 您可以自由使用该源码，但是在使用过程中，请保留作者信息。尊重他人劳动成果就是尊重自己
  **/
@@ -11,7 +11,11 @@ namespace services\specials;
 
 use heart\controller;
 
+
 class special extends controller {
+
+    public $index = 0;
+
     public function __construct() {
         $this->domain = load_config( 'domain' );
     }
@@ -65,9 +69,12 @@ HTML;
 </root>
 EOF;
 
-        $filename = $files.$data['infos']['directory'];
+
+        //$filenpath = $files.$data['infos']['directory'];
+        //var_dump($files);die();
+        $filename = $data['infos']['urlpath'];
         //生成XML
-        write_files($filename.'.xml', $xml);
+        write_files($files.'/'.$filename.'.xml', $xml);
         return true;
     }
 
@@ -79,7 +86,29 @@ EOF;
      * */
     public function replace_text($path, &$html) {
         $html = preg_replace( '/src=[\'"](?!http|https:\/\/)(.*?)[\'"]/i', 'src="'.$this->domain.$path.'$1"', $html );
+
+        //给每个元素加个序号，以便用于切碎片
+        $html = preg_replace_callback('/<([a-zA-Z1-6]+)\s*(.*)>/i',function($matches){
+            //var_dump($matches);die();
+            if(!strstr($matches[2], 'lark-source')){
+                return '<'.$matches[1].' lark-source="elem'.$this->getindex().'" '.$matches[2].'>';
+            }
+
+        },$html);
+
+        //修改页面中的CSS图片地址
+        $html = preg_replace( '/url\((?!http|https:\/\/)(.*?)(.*)\.(jpg|jpeg|png|gif|bmp)/i', 'url('.$this->domain.$path.'$2.$3', $html );
+
+
+
+
         $html = preg_replace( '/<link(.*?)href=[\'"](?!http|https:\/\/)(.*?)[\'"]/i', '<link$1 href="'.$this->domain.$path.'$2"', $html );
+    }
+
+
+    public function getindex(){
+        $this->index++;
+        return $this->index;
     }
 
 

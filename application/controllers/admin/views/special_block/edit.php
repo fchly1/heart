@@ -10,6 +10,9 @@
     .opheight>option{
         height:26px;}
 </style>
+
+
+
 <section class="wrapper">
     <div class="panel">
         <header>
@@ -83,7 +86,7 @@
                             <?=$editor?>
                         </div>
                         <div id="textarea_content" style="display: none;">
-                            <textarea name="new_content" class="form-control" cols="60" rows="20"><?=$infos['content']?></textarea>
+                            <textarea name="new_content" id="new_content" class="form-control" cols="60" rows="20"><?=$infos['content']?></textarea>
                         </div>
 
                         <span class="help-block">如果类型为数据列表需要输入模板代码,代码块这里则是正常碎片数据</span>

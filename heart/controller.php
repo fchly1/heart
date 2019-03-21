@@ -17,5 +17,14 @@ abstract class controller {
         //视图
         $this->view = new \heart\view();
     }
+    /**
+     * ajax返回
+     *
+     * @param $data 返回的参数
+     */
+    public function ajaxReturn($data){
+        echo json_encode($data);
+        return;
+    }
 
 }

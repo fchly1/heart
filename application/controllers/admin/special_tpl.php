@@ -24,7 +24,7 @@ class special_tpl extends admin_base{
         $this->db_special = load_model( 'admin_special' );
 
         //special目录
-        $this->special_path = ROOT_PATH.'resource/special/';
+        $this->special_path = ROOT_PATH.'resource/special_origin/';
 
     }
 
@@ -38,6 +38,7 @@ class special_tpl extends admin_base{
             $page_tpl = gpc( 'page_tpl', 'P' );
             $page_node = gpc( 'page_node', 'P' );
             $content = gpc( 'newcontent', 'P' );
+            $source = gpc( 'source', 'P' );
 
             if( empty( $page_tpl ) ) $this->show_message( '模板路径不对.' );
             $content = htmlspecialchars_decode( $content );
@@ -46,7 +47,13 @@ class special_tpl extends admin_base{
             $xml_obj = simplexml_load_file( $page_tpl );
             $xml_obj->body->{$page_node} = $content;
             $xml_obj->asXML( $page_tpl );
-
+            if($source == 'ajax'){
+                $this->ajaxReturn(array(
+                    'msg'=>'保存成功',
+                    'code'=>0
+                ));
+                return ;
+            }
             $this->show_message( '模板保存成功.' );
         }
 
@@ -55,8 +62,8 @@ class special_tpl extends admin_base{
         $page_url = gpc( 'page_url' );
         if( empty( $id ) ) $this->show_message( '请求错误.' );
 
-        $infos = $this->db_special->get_one( 'id,name,directory,files', [ 'id' => $id ] );
-        $page_tpl = $this->special_path.$infos['directory'].'/'.$infos['directory'].'.xml';
+        $infos = $this->db_special->get_one( 'id,name,directory,urlpath,files', [ 'id' => $id ] );
+        $page_tpl = $this->special_path.$infos['directory'].'/'.$infos['urlpath'].'.xml';
 
         $xml_obj = simplexml_load_file( $page_tpl, 'SimpleXMLElement', LIBXML_NOCDATA);
         if( !$xml_obj ) $this->show_message( $page_tpl.'<br/>模板解析失败.' );
@@ -78,6 +85,44 @@ class special_tpl extends admin_base{
         //页面节点
         $this->view->assign( 'page_node', $method);
         $this->view->display( 'special/view' );
+    }
+
+    /**
+     * 获取模板参数
+     */
+    public function getViewData(){
+        $id = gpc( 'id', 'P' );
+        $page_url = gpc( 'page_url', 'P');
+        if( empty( $id ) ) $this->show_message( '请求错误.' );
+
+        $infos = $this->db_special->get_one( 'id,name,directory,urlpath,files', [ 'id' => $id ] );
+        $page_tpl = $this->special_path.$infos['directory'].'/'.$infos['urlpath'].'.xml';
+
+        $xml_obj = simplexml_load_file( $page_tpl, 'SimpleXMLElement', LIBXML_NOCDATA);
+        if( !$xml_obj ) $this->show_message( $page_tpl.'<br/>模板解析失败.' );
+        $files = explode( ',', $infos['files'] );
+
+
+        //取出第一个文件
+        $page_url = ( !empty( $page_url ) ) ? $page_url : $files[0] ;
+        $node_name = strstr( $page_url, '.', true );
+        $method = 'page_'.$node_name;
+        $content =  trim( $xml_obj->body->{$method} ) ;
+
+        $this->view->assign( 'page_tpl', $page_tpl );
+        $this->view->assign( 'page_url', $page_url);
+
+        $this->view->assign( 'id', $id);
+
+        //页面节点
+        $this->view->assign( 'page_node', $method);
+        $this->ajaxReturn(array(
+            'page_tpl'=>$page_tpl,
+            'page_node'=>$method,
+            'content'=>$content
+        ));
+
+
     }
 
 }

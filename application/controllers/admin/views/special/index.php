@@ -33,7 +33,7 @@
                         <td><?=$v['id']?></td>
                         <!-- <td><a href="<?=make_url( __M__, __C__, 'index', ['id='.$v['id']])?>" class="menunamea"><?=$v['name']?> <i class="icon-gears2"></i></a> </td> -->
                         
-                        <td><a href="/resource/special/<?=$v['directory']?>" class="menunamea" target="_blank"><?=$v['name']?> <i class="icon-gears2"></i></a> </td>
+                        <td><a href="/special/<?=$v['urlpath']?>" class="menunamea" target="_blank"><?=$v['name']?> <i class="icon-gears2"></i></a> </td>
                         <td><?=date('Y-m-d H:i:s', $v['createtime'])?></td>
                         <td>
 

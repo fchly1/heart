@@ -39,11 +39,11 @@
             var self = d.data.self,
                 _options = self._options;
 
-            console.log( _options )
-            var type = _options.dialog_event.attr( 'data-type'),
-                name = _options.dialog_event.attr( 'data-name'),
-                id = _options.dialog_event.attr( 'data-id'),
-                sid = _options.dialog_event.attr( 'data-sid'),
+            
+            var type = $(this).attr( 'data-type'),
+                name = $(this).attr( 'data-name'),
+                id = $(this).attr( 'data-id'),
+                sid = $(this).attr( 'data-sid'),
                 url = '';
 
             //url

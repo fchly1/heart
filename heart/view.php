@@ -79,4 +79,6 @@ class view {
 
         throw new error_exception( "$method() not found" );
     }
+
+
 }

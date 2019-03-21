@@ -3,7 +3,7 @@
  * 专题管理
  *
  * @copyright			(C) 2016 Heart
- * @author              maoxiaoqi <15501100090@163.com> <qq:3677989>
+ * @author              maoxiaoqi <15501100090@163.com> <qq:3677989>  qiancheng <1969662705@qq.com>
  *
  * 您可以自由使用该源码，但是在使用过程中，请保留作者信息。尊重他人劳动成果就是尊重自己
  */
@@ -40,8 +40,11 @@ class special extends admin_base{
         //专题模型
         $this->db_model = load_model( 'admin_special_model' );
 
-        //special目录
-        $this->special_path = ROOT_PATH.'resource/special/';
+        //special源代码目录，保存解压后上传的文件
+        $this->special_path = ROOT_PATH.'resource/special_origin/';
+
+        //专题显示目录
+        $this->special_show_path = ROOT_PATH.'special/';
 
         //上传目录
         $this->upload_path = ROOT_PATH.'resource/upload/';
@@ -94,7 +97,10 @@ EOF;
             $infos = gpc( 'infos', 'P' );
 
             if( empty( $infos['name'] ) ) $this->show_message( '请输入专题名称(中文)' );
-            //if( empty( $infos['en_name'] ) ) $this->show_message( '请输入专题目录(英文)' );
+            if( empty( $infos['urlpath'] ) ) $this->show_message( '请输入专题目录(英文)' );
+
+            $urlpath = $this->db->get_one( 'id,name,directory,files', [ 'urlpath' =>$infos['urlpath']] );
+            if( $urlpath ) $this->show_message( '专题目录重复.' );
 
             $infos['createtime'] = $infos['updatetime'] = time();
 
@@ -109,7 +115,7 @@ EOF;
                 
 
                 $_file = new unzip();
-                $infos['directory'] = $_file->unzip( $this->upload_path.$infos['zip'], $this->special_path);
+                $infos['directory'] = $_file->exzip( $this->upload_path.$infos['zip'], $this->special_path);
                 $infos['files'] = is_array( $_file->html_names ) ? implode( ',', $_file->html_names ) : '' ;
 
                 if( !$infos['directory'] ) {
@@ -117,7 +123,7 @@ EOF;
                 }
 
                 $special_page = $this->special_path.$infos['directory'].'/';
-                
+
 
                 /***** css文件中图片路径替换  start *****/
 
@@ -156,7 +162,6 @@ EOF;
                 }
 
                 /***** css文件中图片路径替换  end *****/
-
 
 
                 //生成XML数据模板
@@ -258,10 +263,11 @@ EOF;
 
         if( empty( $id ) ) $this->show_message( 'ID不能为空' );
 
-        $infos = $this->db->get_one( 'id,name,directory,files', [ 'id' =>$id ] );
+        $infos = $this->db->get_one( 'id,name,directory,urlpath,files', [ 'id' =>$id ] );
         if( empty( $infos ) ) $this->show_message( '专题不存在.' );
         if( empty( $infos['directory'] ) ) $this->show_message( '专题解析,请查看创建专题时,解压ZIP是否正确.' );
-
+        $page_tpl = $this->special_path.$infos['directory'].'/'.$infos['urlpath'].'.xml';
+        $this->view->assign( 'page_tpl', $page_tpl );
         $this->view->assign( 'infos', $infos );
 
         switch( $type ) {
@@ -275,7 +281,7 @@ EOF;
                 //可视化编辑
                 if( !strstr( $infos['files'], $page_url ) ) $this->show_message( '视图不存在.' );
 
-                $xml_path = $this->special_path.$infos['directory'].'/'.$infos['directory'].'.xml';
+                $xml_path = $this->special_path.$infos['directory'].'/'.$infos['urlpath'].'.xml';
                 $_xml = simplexml_load_file( $xml_path, 'SimpleXMLElement', LIBXML_NOCDATA );
                 $_method = 'page_'.explode( '.', $page_url )[0];
                 $html = (string)$_xml->body->{$_method};
@@ -298,7 +304,7 @@ EOF;
 
         if( empty( $id ) ) $this->show_message( 'ID不能为空' );
 
-        $infos = $this->db->get_one( 'id,name,directory,files', [ 'id' =>$id ] );
+        $infos = $this->db->get_one( 'id,name,directory,files,urlpath', [ 'id' =>$id ] );
         if( empty( $infos ) ) $this->show_message( '专题不存在.' );
         if( empty( $infos['directory'] ) ) $this->show_message( '专题解析,请查看创建专题时,解压ZIP是否正确.' );
 
@@ -306,7 +312,7 @@ EOF;
         //可视化编辑
         if( !strstr( $infos['files'], $page_url ) ) $this->show_message( '视图不存在.' );
 
-        $xml_path = $this->special_path.$infos['directory'].'/'.$infos['directory'].'.xml';
+        $xml_path = $this->special_path.$infos['directory'].'/'.$infos['urlpath'].'.xml';
         $_xml = simplexml_load_file( $xml_path, 'SimpleXMLElement', LIBXML_NOCDATA );
         $_method = 'page_'.explode( '.', $page_url )[0];
         $html = (string)$_xml->body->{$_method};
@@ -317,8 +323,11 @@ EOF;
         
         //echo $block->get();
         if(is_file($this->special_path.$infos['directory'].'/'.$page_url)){
-        
-            $origin_str = fopen($this->special_path.$infos['directory'].'/'.$page_url,"w");
+            //判断urlpath目录是否存在
+            if (!is_dir($this->special_show_path.$infos['urlpath'])){
+               $this->create_dirs($this->special_show_path.$infos['urlpath'].'/');
+            }
+            $origin_str = fopen($this->special_show_path.$infos['urlpath'].'/'.$page_url,"w");
             fwrite($origin_str,$block->get());
             fclose($origin_str);
         }
@@ -326,6 +335,24 @@ EOF;
         $this->show_message( '页面已经发布' );
     }
 
+    /*
+     * 创建目录
+     * */
+    public function create_dirs($path){
+        if (!is_dir($path)){
+            $directory_path = "";
+            $directories = explode("/",$path);
+            array_pop($directories);
+
+            foreach($directories as $directory){
+                $directory_path .= $directory."/";
+                if (!is_dir($directory_path)){
+                    mkdir($directory_path);
+                    chmod($directory_path, 0777);
+                }
+            }
+        }
+    }
 
     
 }

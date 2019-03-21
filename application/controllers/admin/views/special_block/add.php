@@ -44,11 +44,11 @@
                     <div class="col-lg-4 col-sm-6 col-xs-6 input-group">
                         <div class="radioscross">
                             <label class="label_radio">
-                                <input name="infos[type]" node-data="type" value="0" type="radio" checked /> 代码块[编辑器]
+                                <input name="infos[type]" node-data="type" value="0" type="radio"  /> 代码块[编辑器]
                             </label>
 
                             <label class="label_radio">
-                                <input name="infos[type]" node-data="type" value="1" type="radio" /> 代码块[文本框]
+                                <input name="infos[type]" node-data="type" value="1" type="radio" checked /> 代码块[文本框]
                             </label>
 
                             <label class="label_radio">
@@ -79,11 +79,11 @@
 
                 <div class="form-group">
                     <label class="col-sm-2 col-xs-4 control-label">碎片内容</label>
-                    <div class="col-lg-7 col-sm-4 col-xs-4 input-group"text-add>
-                        <div id="editor_content">
+                    <div class="col-lg-7 col-sm-4 col-xs-4 input-group" text-add >
+                        <div id="editor_content" style="display: none;">
                             <?=$editor?>
                         </div>
-                        <div id="textarea_content" style="display: none;">
+                        <div id="textarea_content" >
                             <textarea name="new_content" class="form-control" cols="60" rows="20"></textarea>
                         </div>
 

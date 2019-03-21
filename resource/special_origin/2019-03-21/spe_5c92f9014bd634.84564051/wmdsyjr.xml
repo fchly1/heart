@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <title>我们都是一家人</title>
+        <files>index.html</files>
+        <english_title>2019-03-21/spe_5c92f9014bd634.84564051</english_title>
+        <root_path>resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/</root_path>
+        <createtime>1553135873</createtime>
+    </head>
+    <body>
+        <page_index page="index.html">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html lark-source="elem1" xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+	&lt;head lark-source="elem2" &gt;
+		&lt;meta lark-source="elem3" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /&gt;
+		&lt;meta lark-source="elem4" http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+		&lt;meta lark-source="elem5" http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /&gt;
+		&lt;meta lark-source="elem6" http-equiv="X-UA-Compatible" content="IE=7" /&gt;
+		&lt;meta lark-source="elem7" http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+		&lt;title lark-source="elem8" &gt;仁心妙术 大医精诚——走进济南市中心医院脊柱外科_山东频道_凤凰网&lt;/title&gt;
+		&lt;meta lark-source="elem9" name="keywords" content="脊柱外科、微创技术、龚维明、宋宏亮、PVP、PKP" /&gt;
+		&lt;meta lark-source="elem10" name="description" content="脊柱外科为济南市中心医院重点发展的优势专业，专门从事脊柱、脊髓疾病临床诊治的专业科室。位于目前唯一外科大楼9层，环境优越，开放床位16张，拥有6名医师，其中高级职称4人，博士学位2人，硕士学位2人。科室主持完成了山东省自然科学基金1项，厅局级课题9项。目前国内三级医院能开展的脊柱手术都已全面开展，在手术种类、复杂程度及成功率方面高于同级医院骨科平均水平。" /&gt;
+
+		&lt;style lark-source="elem11" type="text/css"&gt;
+			.next {
+				padding: 0;
+				margin: 0;
+				text-align: inherit
+			}
+			
+			.next a {
+				width: 100%;
+				height: 24px;
+				border: 1px solid #ccc;
+			}
+			
+			.newsbody span {
+				margin-left: 0px
+			}
+			
+			.dis_none {
+				position: fixed;
+				left: 50%;
+				top: 0;
+				margin-left: 0px;
+				z-index: 100;
+				width: 620px;
+				padding: 10px;
+				background: #f4f4f4;
+			}
+		&lt;/style&gt;
+
+		&lt;style lark-source="elem12" type="text/css"&gt;
+			.clear {
+				clear: both
+			}
+			
+			body {
+				font: normal 12px simsun, arial, helvetica, clean, sans-serif;
+				color: #2b2b2b;
+				min-width: 1000px;
+			}
+			
+			.container {
+				margin: 0 auto;
+				width: 730px;
+				padding: 0 60px 30px;
+				min-width: 730px;
+				background: #fff
+			}
+			
+			.height5 {
+				padding-bottom: 5px;
+			}
+			
+			.height10 {
+				padding-bottom: 10px;
+			}
+			
+			.height15 {
+				padding-bottom: 15px;
+			}
+			
+			.height20 {
+				padding-bottom: 20px;
+			}
+			
+			.height40 {
+				padding-bottom: 40px;
+			}
+			
+			.height60 {
+				padding-bottom: 60px;
+			}
+			
+			.clearfix:after {
+				visibility: hidden;
+				display: block;
+				font-size: 0;
+				content: " ";
+				clear: both;
+				height: 0;
+			}
+			
+			.clearfix {
+				*zoom: 1;
+			}
+			
+			.dotted {
+				clear: both;
+				height: 21px;
+				background: url(http://y0.ifengimg.com/package/t_20120920__4134/images/dotted.png) repeat-x 0 center;
+				margin: 0 10px;
+				display: block
+			}
+			
+			.fr {
+				float: right;
+				display: inline
+			}
+			
+			.fl {
+				float: left;
+				display: inline
+			}
+			/*顶部*/
+			
+			* {
+				margin: 0;
+				padding: 0;
+				outline: 0;
+			}
+			
+			.speLink {
+				float: left;
+				height: 18px;
+				font-size: 14px;
+				padding-top: 12px;
+				color: #416472;
+			}
+			
+			.speLink a {
+				color: #416472;
+				padding: 0px 7px;
+			}
+			
+			#topicheader {
+				width: 100%;
+				height: 36px;
+				background: #fff;
+				border-bottom: 1px solid #d9d9d9
+			}
+			
+			#speheader {
+				width: 1000px;
+				height: 36px;
+				line-height: 36px;
+				text-align: left;
+				margin: 0 auto;
+				clear: both
+			}
+			
+			#snlogo {
+				padding: 1px 20px 1px 0;
+				float: left
+			}
+			
+			#snlogo img {
+				border: 0
+			}
+			
+			#navlist {
+				float: right;
+				width: 730px
+			}
+			
+			#navlist ul {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#navlist li {
+				float: left;
+				padding: 0 3px;
+				color: #eee;
+				list-style: none;
+			}
+			
+			#navlist li a {
+				font-size: 12px;
+				color: #666;
+				text-decoration: none;
+				line-height: 36px;
+			}
+			
+			#navlist li a:hover {
+				text-decoration: underline;
+			}
+			
+			.new_index {
+				color: #416472;
+			}
+			
+			.new_index a {
+				color: #416472;
+			}
+			/*重新定义*/
+			
+			h1 {
+				font-size: 14px;
+			}
+			
+			h2 {
+				font-size: 14px;
+				font-weight: normal;
+			}
+			
+			h3 {
+				font-size: 12px;
+			}
+			
+			h4 {
+				font-size: 12px;
+				font-weight: normal;
+			}
+			
+			strong {
+				font-weight: bold;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+			}
+			/*全站链接颜色*/
+			
+			a:link {
+				color: #004276;
+			}
+			
+			a:visited {
+				color: #004276;
+			}
+			
+			a:hover {
+				color: #ba2636;
+			}
+			
+			a:active {
+				color: #004276;
+			}
+			/*通用定义*/
+			
+			.clear {
+				clear: both;
+			}
+			
+			.clearfix:after {
+				content: ".";
+				display: block;
+				height: 0;
+				clear: both;
+				visibility: hidden;
+			}
+			/* Hides from IE-mac \*/
+			
+			* html .clearfix {
+				height: 1%;
+			}
+			/* End hide from IE-mac */
+			
+			*+html .clearfix {
+				min-height: 1%;
+			}
+			
+			.bold {
+				font-weight: bold;
+			}
+			
+			.f14 {
+				font-size: 14px;
+			}
+			
+			.h20 {
+				line-height: 20px;
+			}
+			
+			.error {
+				color: red;
+			}
+			/*颜色预定义 可以随时增加*/
+			
+			.cWhite,
+			.cWhite a:link,
+			.cWhite a:visited,
+			.cWhite a:hover {
+				color: #fff;
+			}
+		&lt;/style&gt;
+		&lt;link lark-source="elem13" rel="stylesheet" type="text/css"  href="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/css/style.css" /&gt;
+		&lt;link lark-source="elem14" rel="stylesheet" type="text/css"  href="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/css/animate1.css"/&gt;
+		&lt;script lark-source="elem15" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+		&lt;script lark-source="elem16" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/js/wow.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+
+	&lt;body lark-source="elem17" &gt;
+		&lt;div lark-source="elem18" id="topicheader"&gt;
+			&lt;div lark-source="elem19" id="speheader"&gt;
+				&lt;div lark-source="elem20" id="snlogo"&gt;
+					&lt;a lark-source="elem21" href="http://sd.ifeng.com" target="_blank"&gt;&lt;img src="http://y3.ifengimg.com/05d7c5c07c1ed4f3/2015/0723/rdn_55b05de446b52.jpg"&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div lark-source="elem22" id="navlist"&gt;
+					&lt;ul lark-source="elem23" class="clearfix"&gt;
+						&lt;li lark-source="elem24" class="new_index"&gt;
+							&lt;a lark-source="elem25" href="http://www.ifeng.com/" target="_blank" title="凤凰网山东首页"&gt;凤凰网首页&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem26" class="new_index"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem27"&gt;
+							&lt;a lark-source="elem28" href="http://sd.ifeng.com/listpage/782/1/list.shtml" target="_blank" title="凤凰山东新闻早班车"&gt;新闻早班车&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem29"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem30"&gt;
+							&lt;a lark-source="elem31" href="http://sd.ifeng.com/listpage/4202/1/list.shtml" target="_blank" title="凤观齐鲁"&gt;凤观齐鲁&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem32"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem33"&gt;
+							&lt;a lark-source="elem34" href="http://sd.ifeng.com/listpage/794/1/list.shtml" target="_blank" title="图片"&gt;图片&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem35"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem36"&gt;
+							&lt;a lark-source="elem37" href="http://sd.ifeng.com/listpage/4198/1/list.shtml" target="_blank" title="齐鲁名人会客厅"&gt;齐鲁名人&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem38"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem39"&gt;
+							&lt;a lark-source="elem40" href="http://sd.ifeng.com/caijing/" target="_blank" title="财经"&gt;财经&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem41"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem42"&gt;
+							&lt;a lark-source="elem43" href="http://sd.ifeng.com/lvyou/" target="_blank" title="旅游"&gt;旅游&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem44"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem45"&gt;
+							&lt;a lark-source="elem46" href="http://sd.ifeng.com/listpage/4239/1/list.shtml" target="_blank" title="汽车"&gt;汽车&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem47"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem48"&gt;
+							&lt;a lark-source="elem49" href="http://sd.ifeng.com/listpage/4251/1/list.shtml" target="_blank" title="文化"&gt;文化&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem50"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem51"&gt;
+							&lt;a lark-source="elem52" href="http://sd.ifeng.com/listpage/4246/1/list.shtml" target="_blank" title="教育"&gt;教育&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem53"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem54"&gt;
+							&lt;a lark-source="elem55" href="http://sd.ifeng.com/listpage/4233/1/list.shtml" target="_blank" title="时尚"&gt;时尚&lt;/a&gt;
+						&lt;/li&gt;
+						&lt;li lark-source="elem56"&gt;|&lt;/li&gt;
+						&lt;li lark-source="elem57"&gt;
+							&lt;a lark-source="elem58" href="http://sd.ifeng.com/special/" target="_blank" title="凤凰山东专题频道"&gt;专题&lt;/a&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!---end顶部代码---&gt;
+
+		&lt;!--
+        	专题开始
+        --&gt;
+
+		&lt;!-- 专题头部 --&gt;
+		&lt;div lark-source="elem59" class="zt-head zt-box"&gt;
+			&lt;div lark-source="elem60" class="head-body zt-wrap"&gt;
+				&lt;img lark-source="elem61" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/headtit.png" class="headtit animated wow zoomIn"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- 专题头部 --&gt;
+
+		&lt;!-- 导语 --&gt;
+		&lt;div lark-source="elem62" class="intro zt-box"&gt;
+			&lt;div lark-source="elem63" class="intro-body zt-wrap"&gt;
+				&lt;{block('魂牵梦萦魂牵梦萦堙')}&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- 导语 --&gt;
+
+		&lt;!-- 专访视频 --&gt;
+		&lt;style lark-source="elem65" type="text/css"&gt;
+			.ifengVideo {
+				margin: 0px auto;
+				width: 1000px;
+				overflow: hidden;
+				font-family: "å¾®è½¯é›…é»‘";
+				padding-top: 16px;
+			}
+			
+			.ifengVideo .ifengVideo_left {
+				float: right;
+				width: 635px;
+				margin-right: 25px;
+				display: inline;
+			}
+			
+			.ifengVideo .ifengVideo_right {
+				float: left;
+				width: 340px;
+				padding-top: 50px;
+				display: inline;
+			}
+			
+			.ifengVideo .ifengVideo_right_con ul {
+				/*border-top: 1px dashed #bf564a;*/
+				margin-top: 7px;
+			}
+			
+			.ifengVideo .ifengVideo_right_con ul li a {
+				display: block;
+				width: 268px;
+				height: 64px;
+				overflow: hidden;
+				line-height: 64px;
+				padding-left: 57px;
+				font-size: 16px;
+				color: #0083c4;
+				font-weight: 700;
+				font-family: "微软雅黑";
+				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/videoliico.png);
+				background-position: 28px center;
+				background-repeat: no-repeat;
+				white-space:nowrap; 
+			}
+			
+			.ifengVideo .ifengVideo_right_con ul li.current,
+			.ifengVideo .ifengVideo_right_con ul li:hover {
+				background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/videolibg-h.png);
+			}
+			
+			.ifengVideo .ifengVideo_right_con ul li a:hover,
+			.ifengVideo .ifengVideo_right_con ul li.current a {
+				/*color: #fff;*/
+				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/videoliico.png) 28px center no-repeat;
+			}
+		&lt;/style&gt;
+		&lt;div lark-source="elem66" class="netviewvideo zt-box"&gt;
+			&lt;div lark-source="elem67" class="netviewvideo-body zt-wrap"&gt;
+				&lt;div lark-source="elem68" class="ifengVideo"&gt;
+					&lt;div lark-source="elem69" class="ifengVideo_left animated slideInRight wow" id="playerDiv"&gt;
+						&lt;img lark-source="elem70" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/video-img1.png"&gt;
+					&lt;/div&gt;
+					&lt;div lark-source="elem71" class="ifengVideo_right animated slideInLeft wow"&gt;
+						&lt;!--&lt;div lark-source="elem72" class="ifengVideo_right_title"&gt;&lt;img src="http://y3.ifengimg.com/05d7c5c07c1ed4f3/2014/0915/rdn_5416ac5036169.jpg" alt="本期导视" /&gt;&lt;/div&gt;--&gt;
+						&lt;div lark-source="elem73" class="ifengVideo_right_con"&gt;
+							&lt;ul lark-source="elem74" class="playitem" id="playitem"&gt;
+
+								&lt;li lark-source="elem75" name="04b604ff-f494-9690-612e-c2781f42d129"&gt;
+									&lt;a lark-source="elem76" href="javascript:void(0);"&gt;ERCP术简介——山东省交通医院&lt;/a&gt;
+								&lt;/li&gt;
+								&lt;li lark-source="elem77" name="04c94f78-6565-c84f-f532-29a2319965cf"&gt;
+									&lt;a lark-source="elem78" href="javascript:void(0);"&gt;ERCP术概述——山东省交通医院&lt;/a&gt;
+								&lt;/li&gt;
+								&lt;li lark-source="elem79" name="0435d5f9-10f1-0fa7-cbcd-a8e41ba6c255"&gt;
+									&lt;a lark-source="elem80" href="javascript:void(0);"&gt;肝胆内镜外科室概览———山东省交通医院&lt;/a&gt;
+								&lt;/li&gt;
+								&lt;li lark-source="elem81" name="04608778-7f0c-767b-c628-ff1fc68cecb4"&gt;
+									&lt;a lark-source="elem82" href="javascript:void(0);"&gt;肝胆内镜外科室医德建设—山东省交通医院&lt;/a&gt;
+								&lt;/li&gt;
+
+							&lt;/ul&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;script lark-source="elem83" src="http://v.ifeng.com/include/citeswfobject.js"&gt;&lt;/script&gt;
+					&lt;script lark-source="elem84" src="http://v.ifeng.com/tres/js/lianbo.js"&gt;&lt;/script&gt;
+					&lt;script lark-source="elem85" type="text/javascript"&gt;
+						var p = new PlayItems("playitem"); //参数为包含连播条目的标签节点id,多页签id用英文逗号分开"block1,block2"
+						p.domain = "ent"; //引用频道域名，ent,news,phtv,finance
+						p.playitemcss = "current"; //正在播放的条目 css样式
+						p.AutoPlay = 'false'; // 视频自动播放
+						p.preAdurl = escape('');
+						p.ADPlay = 'true';
+						p.postUrl = 'images/video-img1.png';
+						p.swfWidth = '635';
+						p.swfHeight = '358';
+						p.RenderPlay(0);
+					&lt;/script&gt;
+
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;!-- 专访视频 --&gt;
+
+		&lt;!-- 专业技术 --&gt;
+		&lt;div lark-source="elem86" class="technical zt-box"&gt;
+			&lt;div lark-source="elem87" class="technical-body zt-wrap"&gt;
+				&lt;div lark-source="elem88" class="part2_cont"&gt;
+					&lt;style lark-source="elem89"&gt;
+						.box04 {
+							height: 104px;
+							/*margin-top: 20px;*/
+							overflow: hidden;
+							border-radius: 20px;
+							border: 1px solid #ccc;
+							position: relative;
+						}
+						
+						.box04 ul {
+							height: 104px;
+							float: left;
+							width: 110%;
+						}
+						
+						.box04 ul li {
+							width: 250px;
+							height: 104px;
+							background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/lirightbg.gif) right center no-repeat;
+							background-color: #fff;
+							/*padding: 16px 10px 25px 10px;*/
+							overflow: hidden;
+							float: left;
+							cursor: pointer;
+						}
+						
+						.box04 ul .pic {
+							width: 101px;
+							float: left;
+							margin-right: 9px;
+							margin-left: 15px;
+						}
+						
+						.box04 ul .txt {
+							width: 107px;
+							float: left;
+							padding-top: 15px;
+							display: inline;
+						}
+						
+						.box04 ul .txt h3 {
+							font-family: "微软雅黑";
+							font-size: 20px;
+							font-weight: normal;
+							color: #0090d7;
+							height: 24px;
+							line-height: 24px;
+							overflow: hidden;
+						}
+						
+						.box04 ul .txt p {
+							color: #727171;
+							line-height: 20px;
+							height: 40px;
+							overflow: hidden;
+							font-size: 15px;
+						}
+						
+						.box04 ul .hover {
+							/*background: #e6e6e6 url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/move01_on2.gif) no-repeat left bottom;*/
+						}
+						
+						.box05 {
+							margin-top: 40px;
+							overflow: hidden;
+							border: 1px solid #ccc;
+							background-color: #fff;
+							border-radius: 20px;
+							height: 300px;
+							position: relative;
+							
+						}
+						
+						.box05 .pic_list {
+							width: 439px;
+							position: relative;
+							float: left;
+							margin-left: 49px;
+							display: inline;
+						}
+						
+						.box05 .pic_list .pic {
+							width: 439px;
+							height: 300px;
+							overflow: hidden;
+						}
+						
+						.box05 .pic_list .pic a,
+						.box05 .pic_list .pic img {
+							display: block;
+						}
+						
+						.box05 .pic_list .textbg {
+							position: absolute;
+							width: 439px;
+							height: 75px;
+							top: 221px;
+							left: 0;
+							background: #000;
+							filter: alpha(opacity=67);
+							-moz-opacity: 0.67;
+							opacity: 0.67;
+							display: none;
+						}
+						
+						.box05 .pic_list .text {
+							position: absolute;
+							width: 439px;
+							height: 61px;
+							padding-top: 14px;
+							text-align: center;
+							line-height: 22px;
+							top: 221px;
+							*top: 221px;
+							_top: 221px;
+							font-size: 14px;
+							color: #fff;
+							display: none;
+						}
+						
+						.box05 .pic_list .text p {
+							color: #fff;
+						}
+						
+						.box05 .pic_list .text a {
+							font-family: "微软雅黑";
+							font-size: 20px;
+							color: #fff;
+						}
+						
+						.box05 .txt_list {
+							width: 490px;
+							margin-right: 20px;
+							margin-top: -32px;
+							float: left;
+						}
+						
+						.box05 .txt {
+							margin-top: 28px;
+							overflow: hidden;
+							width: 466px;
+							margin-left: 44px;
+						}
+						
+						.box05 .txt h3 {
+							font-family: "微软雅黑";
+							font-size: 21px;
+							font-weight: normal;
+							height: 24px;
+							line-height: 24px;
+							overflow: hidden;
+						}
+						
+						.box05 .txt h3 a {
+							color: #0090d7;
+						}
+						
+						.box05 .txt p {
+							font-size: 14px;
+							color: #727171;
+							line-height: 24px;
+							margin-top: 12px;
+						}
+						
+						.box05 .txt p a {
+							color: #ba2636;
+						}
+						
+						.box04tips {
+							width: 250px;
+							height: 12px;
+							background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/move01_on3.png);
+							background-repeat: no-repeat;
+							background-position: top center;
+							position: absolute;
+							top: 99px;
+						}
+					&lt;/style&gt;
+					&lt;style lark-source="elem90"&gt;
+						.label5 {
+							background: url(http://y0.ifengimg.com/package/special_20150724_49682/img/tl_2.gif) repeat-x top center;
+							height: 31px;
+							margin: 15px 0;
+						}
+						
+						.label5 li {
+							float: left;
+							font: bold 16px/31px 微软雅黑;
+							width: 160px;
+							text-align: center;
+							border-right: 1px solid #e7e5e6;
+							cursor: pointer;
+						}
+						
+						.label5 li.current {
+							border-top: 2px solid #1f5b99;
+							border-left: none;
+							height: 29px;
+							background: #fefefc;
+						}
+						
+						.box1000 {}
+						
+						.pic5 {
+							float: left;
+							width: 648px;
+						}
+						
+						.txt5 {
+							float: left;
+							width: 352px;
+						}
+						
+						.txt5 h4 {
+							font-size: 14px;
+							font-weight: bold;
+							line-height: 26px;
+							padding-bottom: 3px;
+						}
+						
+						.txt5 p {
+							font-size: 14px;
+							line-height: 24px;
+							border-bottom: 1px solid #e7e5e6;
+							padding-bottom: 20px;
+							margin-bottom: 20px;
+						}
+						
+						.txt5 p a {
+							color: #ba2636;
+						}
+						
+						.txt5 li {
+							font-size: 14px;
+							line-height: 26px;
+						}
+						
+						.txt5 li span {
+							float: left;
+							width: 63px;
+						}
+					&lt;/style&gt;
+					&lt;link lark-source="elem91" src="http://y0.ifengimg.com/package/special_20150724_49682/css/d1a943fb2e19188fcd84b27bd4ea5a7b.css" type="text/css"&gt;
+					&lt;script lark-source="elem92" src="http://y0.ifengimg.com/package/special_20150724_49682/js/huamen.js"&gt;&lt;/script&gt;
+					&lt;!--通用专题页尾代码结束--&gt;
+					&lt;!--[if !IE]&gt;inject.s&lt;![endif]--&gt;
+					&lt;div lark-source="elem93" class="Nfld_b00aw_1000 animated fadeInUp wow" style="padding-top:20px;margin-top:0px;position: relative;" id="003"&gt;
+						&lt;div lark-source="elem94" class="box04"&gt;
+							&lt;ul lark-source="elem95" class="clearfix"&gt;
+								&lt;li lark-source="elem96" id="sanlt1" class=""&gt;
+									&lt;div lark-source="elem97" class="pic"&gt;
+										&lt;img lark-source="elem98" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文"&gt;
+									&lt;/div&gt;
+									&lt;div lark-source="elem99" class="txt"&gt;
+										&lt;h3 lark-source="elem100"&gt;李昌文&lt;/h3&gt;
+										&lt;p lark-source="elem101"&gt;济宁市委常委、宣传部长&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li lark-source="elem102" id="sanlt2" class=""&gt;
+									&lt;div lark-source="elem103" class="pic"&gt;
+										&lt;img lark-source="elem104" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文"&gt;
+
+									&lt;/div&gt;
+									&lt;div lark-source="elem105" class="txt"&gt;
+										&lt;h3 lark-source="elem106"&gt;王志民&lt;/h3&gt;
+										&lt;{block('古玩硒')}&gt;
+									&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li lark-source="elem108" id="sanlt3" class=""&gt;
+									&lt;div lark-source="elem109" class="pic"&gt;
+										&lt;img lark-source="elem110" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文"&gt;
+
+									&lt;/div&gt;
+									&lt;div lark-source="elem111" class="txt"&gt;
+										&lt;h3 lark-source="elem112"&gt;董乃强&lt;/h3&gt;
+										&lt;p lark-source="elem113"&gt;北京师范教授、中华母亲节促进会理事&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li lark-source="elem114" id="sanlt4" class="hover"&gt;
+									&lt;div lark-source="elem115" class="pic"&gt;
+										&lt;img lark-source="elem116" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文"&gt;
+
+									&lt;/div&gt;
+									&lt;div lark-source="elem117" class="txt"&gt;
+										&lt;h3 lark-source="elem118"&gt;吕明晰&lt;/h3&gt;
+										&lt;p lark-source="elem119"&gt;山东电视台“天下父母”总导演&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/li&gt;
+
+							&lt;/ul&gt;
+							&lt;div lark-source="elem120" class="box04tips"&gt;
+
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+						&lt;div lark-source="elem121" class="box05 clearfix animated bounceInLeft" id="con_sanlt_1" style="display: none;"&gt;
+							&lt;div lark-source="elem122" class="txt_list"&gt;
+								&lt;div lark-source="elem123" class="txt" style="margin-top:95px;"&gt;
+									&lt;h3 lark-source="elem124"&gt;&lt;a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank"&gt;邹城家风文化、母教文化丰富&lt;/a&gt;&lt;/h3&gt;
+									&lt;p lark-source="elem125"&gt;
+										济宁市委常委、宣传部长李昌文在致辞中表示，邹城是孔孟之乡，运河之都，物华天宝，人杰地灵。邹城家风文化、母教文化丰富，“孟母三迁”“断机教子”的故事广为流传。相信此次论坛的举办，必将促进邹城乃至济宁传统文化的创新发展。
+										&lt;a lark-source="elem126" href="###" target="_blank"&gt;[详情]&lt;/a&gt;
+									&lt;/p&gt;
+								&lt;/div&gt;
+
+							&lt;/div&gt;
+							&lt;div lark-source="elem127" class="pic_list"&gt;
+								&lt;div lark-source="elem128" class="pic"&gt;
+									&lt;img lark-source="elem129" src="http://p0.ifengimg.com/a/2016_20/b6e44fce166a3da.jpg" width="490" height="300" title="李昌文" alt="李昌文"&gt;
+								&lt;/div&gt;
+								&lt;div lark-source="elem130" class="textbg"&gt;&lt;/div&gt;
+								&lt;div lark-source="elem131" class="text"&gt;
+									&lt;p lark-source="elem132" style="font:20px Microsoft YaHei"&gt;李昌文&lt;/p&gt;
+									&lt;p lark-source="elem133"&gt;山东省济宁市委常委、宣传部长&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div lark-source="elem134" class="box05 clearfix animated bounceInLeft" id="con_sanlt_2 " style="display: none;"&gt;
+							&lt;div lark-source="elem135" class="txt_list"&gt;
+								&lt;div lark-source="elem136" class="txt" style="margin-top:95px;"&gt;
+									&lt;h3 lark-source="elem137"&gt;&lt;a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank"&gt;王志民：邹鲁之风就是一种读书的风气&lt;/a&gt;&lt;/h3&gt;
+									&lt;p lark-source="elem138"&gt;
+										“‘子不学，断机杼’。读书和向善是孟母教子的核心问题。”山东省政协原副主席、山东师范大学齐鲁文化研究中心首席专家、孟子研究院特聘院长王志民在主题发言《邹鲁之风：中国传统优良家风的文化根基》中讲到。 王志民说，邹鲁之风就是一种读书的风气，感染了孟母，孟母教育了孩子。“子不学，断机杼”。“仁义礼智非由外铄我也，我固有之也。”王志民认为孟子的性善论，从孟母那里获得了这种基因。
+										&lt;a lark-source="elem139" href="###" target="_blank"&gt;[详情]&lt;/a&gt;
+									&lt;/p&gt;
+								&lt;/div&gt;
+
+							&lt;/div&gt;
+							&lt;div lark-source="elem140" class="pic_list"&gt;
+								&lt;div lark-source="elem141" class="pic"&gt;
+									&lt;img lark-source="elem142" src="http://p1.ifengimg.com/a/2016_20/49e0ff75ec10087.jpg" width="490" height="300" title="王志民" alt="王志民"&gt;
+								&lt;/div&gt;
+								&lt;div lark-source="elem143" class="textbg"&gt;&lt;/div&gt;
+								&lt;div lark-source="elem144" class="text"&gt;
+									&lt;p lark-source="elem145" style="font:20px Microsoft YaHei"&gt;王志民&lt;/p&gt;
+									&lt;p lark-source="elem146"&gt;山东省政协原副主席、孟子研究院特聘院长&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div lark-source="elem147" class="box05 clearfix animated bounceInLeft" id="con_sanlt_3" style="display: none;"&gt;
+							&lt;div lark-source="elem148" class="txt_list"&gt;
+								&lt;div lark-source="elem149" class="txt" style="margin-top:95px;"&gt;
+									&lt;h3 lark-source="elem150"&gt;&lt;a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank"&gt;董乃强：爱母分为多个层次&lt;/a&gt;&lt;/h3&gt;
+									&lt;p lark-source="elem151"&gt;
+										北京师范大学教授、中华母亲节促进会理事董乃强在《新时期如何挖掘传承优良家风》主题发言中强调，爱母恐怕还要有几个层次：第一个层次是尊敬、遵从、服从母亲；第二个层次应该是让母亲不犯错误。有的母亲很着急，可能出现这样那样的错误。作为孩子来讲，是站在母亲这边，加剧矛盾还是解决矛盾？崇高的品德不是生来就有的，而是培养和潜移默化的结果。爱母的最高层次，是培养母亲、提高母亲的素质。
+										&lt;a lark-source="elem152" href="###" target="_blank"&gt;[详情]&lt;/a&gt;
+									&lt;/p&gt;
+								&lt;/div&gt;
+
+							&lt;/div&gt;
+							&lt;div lark-source="elem153" class="pic_list"&gt;
+								&lt;div lark-source="elem154" class="pic"&gt;
+									&lt;img lark-source="elem155" src="http://p2.ifengimg.com/a/2016_20/ca697a84c760d48.jpg" width="490" height="300" title="董乃强" alt="董乃强"&gt;
+								&lt;/div&gt;
+								&lt;div lark-source="elem156" class="textbg"&gt;&lt;/div&gt;
+								&lt;div lark-source="elem157" class="text"&gt;
+									&lt;p lark-source="elem158" style="font:20px Microsoft YaHei"&gt;董乃强&lt;/p&gt;
+									&lt;p lark-source="elem159"&gt;北京师范大学教授、中华母亲节促进会理事&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div lark-source="elem160" class="box05 clearfix animated bounceInLeft" id="con_sanlt_4" style="display: block;"&gt;
+							&lt;div lark-source="elem161" class="txt_list"&gt;
+								&lt;div lark-source="elem162" class="txt" style="margin-top:95px;"&gt;
+									&lt;h3 lark-source="elem163"&gt;&lt;a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank"&gt;吕明晰：中华母亲节多一个“教育”的主题&lt;/a&gt;&lt;/h3&gt;
+									&lt;p lark-source="elem164"&gt;
+										中华母亲节跟其他70多个母亲节不一样，中华母亲节多了一个“教育”的主题，也是一个彰显中华母亲教育的节日。在教育母亲方面，中华传统文化有着不可替代的优势，举办这场活动真是功德无量。
+										&lt;a lark-source="elem165" href="###" target="_blank"&gt;[详情]&lt;/a&gt;
+									&lt;/p&gt;
+								&lt;/div&gt;
+
+							&lt;/div&gt;
+							&lt;div lark-source="elem166" class="pic_list"&gt;
+								&lt;div lark-source="elem167" class="pic"&gt;
+									&lt;img lark-source="elem168" src="http://p3.ifengimg.com/a/2016_20/9bff77761f896ad.jpg" width="490" height="300" title="吕明晰" alt="吕明晰"&gt;
+								&lt;/div&gt;
+								&lt;div lark-source="elem169" class="textbg"&gt;&lt;/div&gt;
+								&lt;div lark-source="elem170" class="text"&gt;
+									&lt;p lark-source="elem171" style="font:20px Microsoft YaHei"&gt;吕明晰&lt;/p&gt;
+									&lt;p lark-source="elem172"&gt;山东电视台“天下父母”总导演&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+					&lt;/div&gt;
+
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;script lark-source="elem173" src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+			&lt;script lark-source="elem174" type="text/javascript"&gt;
+				$('.box04 ul li').hover(function() {
+					$index = $(this).index();
+					$('.box04tips').css('left', $index * 250 + 'px');
+					$(this).addClass('hover').siblings().removeClass('hover');
+					$('.Nfld_b00aw_1000').children('div.box05').eq($index).show().siblings('.box05').hide();
+				})
+			&lt;/script&gt;
+		&lt;/div&gt;
+		&lt;!-- 专业技术 --&gt;
+
+		&lt;!-- 医生风采 --&gt;
+		&lt;style lark-source="elem175" type="text/css"&gt;
+			.middles {
+				width:1000px;
+				height: 468px;
+				position: relative;
+				margin: 0 auto;
+			}
+			
+			#ppt {
+				width: 1000px;
+				height: 468px;
+			}
+			
+			.RingCareBox {
+				position: relative;
+				width: 1000px;
+				margin: 0 auto;
+			}
+			
+			.RingCareBox .ScrollBox {
+				height: 580px;
+				margin: 0 auto;
+				overflow: hidden;
+				position: relative;
+				width: 813px;
+				z-index: 10;
+			}
+			
+			.RingCareBox .ScrollBox ul {
+				display: block;
+				left: 0;
+				position: absolute;
+				width: 10000px;
+			}
+			
+			.RingCareBox .ScrollBox li {
+				float: left;
+				height: 500px;
+				position: relative;
+				width: 813px;
+				background: #fff;
+			}
+			
+			.RingCareBox .ScrollBox li img {
+				width: 813px;
+				height: 547px;
+				margin: 0 auto
+			}
+			
+			.SelectScrollPN {
+				position: absolute;
+				top: 183px;
+				width: 100%;
+				z-index: 100;
+			}
+			
+			.SelectScrollPN span {
+				cursor: pointer;
+				display: block;
+				height: 120px;
+				overflow: hidden;
+				position: absolute;
+				width: 53px;
+				opacity: 0.5;
+			}
+			
+			.SelectScrollPN span:hover {
+				opacity: 1;
+			}
+			
+			.SelectScrollPN span.prev {
+				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/leftbgbtn.png)  left center no-repeat;
+				padding-left: 5px;
+			}
+			
+			.SelectScrollPN span.next {
+				right: 0;
+				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/rightbgbtn.png) right center  no-repeat;
+			}
+			
+			.RingCareBox .SelectScrollBtn {
+				padding: 17px 0 5px;
+			}
+			
+			.ww {
+				width: 1000px;
+				height: 46px;
+				position: absolute;
+				left: 0px;
+				text-align: left;
+				font-size: 14px;
+				z-index: 57;
+				bottom: 0px;
+				line-height: 46px;
+				color: #fff;
+				background: url(http://p3.ifengimg.com/l/2016/25/eaf1b3946de0b95/hd-bg.png) repeat-x center center;
+				text-indent: 20px;
+				display: none;
+			}
+		&lt;/style&gt;
+		&lt;div lark-source="elem176" class="octors zt-box"&gt;
+			&lt;div lark-source="elem177" class="octors-body zt-wrap"&gt;
+				&lt;div lark-source="elem178" class="middles animated bounceIn wow" style="margin:0 auto; position:relative;"&gt;
+					&lt;div lark-source="elem179" id="ppt" style="margin:0 auto;"&gt;
+						&lt;div lark-source="elem180" class="RingCareBox"&gt;
+							&lt;div lark-source="elem181" class="ScrollBox"&gt;
+								&lt;div lark-source="elem182" class="tempWrap" style="overflow:hidden; position:relative; width:1000px"&gt;
+									&lt;ul lark-source="elem183" id="s_ul" style="left: -1000px; width: 12000px; position: relative; overflow: hidden; padding: 0px; margin: 0px;"&gt;
+										&lt;li lark-source="elem184" class="clone" style="float: left; width: 1000px;"&gt;
+											&lt;a lark-source="elem185"&gt; &lt;img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c92f9014bd634.84564051/images/styleimg1.png" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem186" class="ww"&gt;
+												适应场地。
+											&lt;/div&gt;
+											&lt;div lark-source="elem187" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem188" style="float: left"&gt;
+											&lt;a lark-source="elem189"&gt; &lt;img src="http://p1.ifengimg.com/a/2016_26/0d540336540fa80.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem190" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem191" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem192" style="float: left; "&gt;
+											&lt;a lark-source="elem193"&gt; &lt;img src="http://p2.ifengimg.com/a/2016_26/0cd8bb66ed4319c.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem194" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem195" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem196" style="float: left; "&gt;
+											&lt;a lark-source="elem197"&gt; &lt;img src="http://p0.ifengimg.com/a/2016_26/ad58e01ed61e621.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem198" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem199" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem200" style="float: left;"&gt;
+											&lt;a lark-source="elem201"&gt; &lt;img src="http://p1.ifengimg.com/a/2016_26/6707df7adcf9406.jpg" thumb="" alt=" 第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem202" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem203" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem204" style="float: left; "&gt;
+											&lt;a lark-source="elem205"&gt; &lt;img src="http://p1.ifengimg.com/a/2016_26/780c90d58b1ca7b.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem206" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem207" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem208" style="float: left;"&gt;
+											&lt;a lark-source="elem209"&gt; &lt;img src="http://p1.ifengimg.com/a/2016_26/ae5f2cb98ca7809.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem210" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem211" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem212" style="float: left;"&gt;
+											&lt;a lark-source="elem213"&gt; &lt;img src="http://p0.ifengimg.com/66990ad885422212/2016/25/527a3c3a89d99a9.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem214" class="ww"&gt;
+												6月23日上午，第十五届全国大学生机器人大赛在邹城拉开大幕。
+											&lt;/div&gt;
+											&lt;div lark-source="elem215" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem216" style="float: left; "&gt;
+											&lt;a lark-source="elem217"&gt; &lt;img src="http://p0.ifengimg.com/66990ad885422212/2016/25/8c9f16ed65335ef.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem218" class="ww"&gt;
+												6月23日上午，第十五届全国大学生机器人大赛在邹城拉开大幕。
+											&lt;/div&gt;
+											&lt;div lark-source="elem219" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem220" style="float: left; "&gt;
+											&lt;a lark-source="elem221"&gt; &lt;img src="http://p0.ifengimg.com/66990ad885422212/2016/25/3b5b3a2da2448ab.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem222" class="ww"&gt;
+												适应场地。
+											&lt;/div&gt;
+											&lt;div lark-source="elem223" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+										&lt;li lark-source="elem224" style="float: left; "&gt;
+											&lt;a lark-source="elem225"&gt; &lt;img src="http://p0.ifengimg.com/66990ad885422212/2016/25/e56f1c2e247a9d8.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem226" class="ww"&gt;
+												适应场地。
+											&lt;/div&gt;
+											&lt;div lark-source="elem227" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+
+										&lt;li lark-source="elem228" class="clone" style="float: left; "&gt;
+											&lt;a lark-source="elem229"&gt; &lt;img src="http://p1.ifengimg.com/a/2016_26/0d540336540fa80.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"&gt; &lt;/a&gt;
+											&lt;div lark-source="elem230" class="ww"&gt;
+												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
+											&lt;/div&gt;
+											&lt;div lark-source="elem231" class="wwbg"&gt;&lt;/div&gt;
+										&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+							&lt;div lark-source="elem232" class="SelectScrollPN"&gt;
+								&lt;span lark-source="elem233" class="prev prevno" id="leftB"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem234" class="next nextno" id="rightB"&gt;&lt;/span&gt;
+							&lt;/div&gt;
+							&lt;div lark-source="elem235" class="scrollPage"&gt;
+								&lt;span lark-source="elem236" class="on" style="background-position: -11px 0px;"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem237"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem238"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem239"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem240"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem241"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem242"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem243"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem244"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem245"&gt;&lt;/span&gt;
+								&lt;span lark-source="elem246"&gt;&lt;/span&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;script lark-source="elem247" src="http://p2.ifengimg.com/l/2016/25/eaf1b3946de0b95/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+				&lt;script lark-source="elem248" type="text/javascript"&gt;
+					$(".middles").slide({
+						mainCell: ".ScrollBox ul",
+						autoPage: true,
+						prevCell: ".prev",
+						nextCell: ".next",
+						effect: "leftLoop",
+						easing: "easeInOutQuart"
+					})
+				&lt;/script&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+	
+		&lt;!-- 医生风采 --&gt;
+		
+		&lt;!-- 结语 --&gt;
+		&lt;div lark-source="elem249" class="pilogue zt-box"&gt;
+			&lt;div lark-source="elem250" class="pilogue-body zt-wrap"&gt;
+				&lt;p lark-source="elem251"&gt;
+					读书和向善是孟母饺子的核心问题。过去三年的拼搏和紧张的高考在这个炎热的夏季落下帷幕，你马上就要背上行囊，跨入梦寐以求的大学，开启一个完全不同的学习环境和生活空间。大学是一个熔炉，积极奋进的人会通过它的试炼，愿你能够不负青春不负己，不负年华不负心，用张扬自信，执着认真，为大学生活书写精彩，留一段无悔的经历！
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;	
+		&lt;!-- 结语 --&gt;
+		&lt;script lark-source="elem252" type="text/javascript"&gt;
+			new WOW().init();
+		&lt;/script&gt;
+		&lt;!--
+			专题结束
+		--&gt;
+
+		&lt;style lark-source="elem253" type="text/css"&gt;
+			/*basic*/
+			
+			.fl {
+				float: left;
+			}
+			
+			.fr {
+				float: right;
+			}
+			
+			.wrapper {
+				width: 1000px;
+				margin: 40px auto 0px;
+			}
+			
+			.wy {
+				font-family: Microsoft YaHei;
+			}
+			
+			.hidden {
+				display: none;
+			}
+			/*ie6*/
+			
+			* html {
+				background-image: url(about:blank);
+				background-attachment: fixed;
+			}
+			/*color*/
+			
+			.infoBlueFont {
+				color: #004276;
+			}
+			
+			.infoBlueLine {
+				background: url(http://y1.ifengimg.com/314bd925cdd17196/2014/0620/infoBlueLine.png) no-repeat top left;
+				width: 660px;
+				display: block;
+			}
+			/*顶部图片*/
+			
+			.infoTopPic {
+				overflow: hidden;
+				cursor: url(http://y1.ifengimg.com/a/2014/0708/da47455b88ba03b.ico), pointer;
+			}
+			/*页头*/
+			
+			.infoHeader {
+				height: 41px;
+				display: none;
+			}
+			
+			.iHLef a img {
+				margin-top: 11px;
+			}
+			
+			.iHRig ul li {
+				color: #939292;
+				float: left;
+				line-height: 41px;
+				margin-left: 5px;
+			}
+			
+			.iHRig ul li a {
+				color: #939292!important;
+			}
+			/*题目*/
+			
+			.infoTitBg {
+				background: url(http://y3.ifengimg.com/a/2014/0620/4947eed4fd63a32.png) repeat-x;
+				width: 100%;
+				height: 186px;
+				display: block;
+				padding: 60px 0 25px;
+			}
+			
+			.infoTitUp {
+				position: relative;
+			}
+			
+			.infoTitUp h1 {
+				font-size: 44px;
+			}
+			
+			.infoTitUp p {
+				width: 660px;
+				margin-top: 11px;
+				line-height: 24px;
+			}
+			
+			.infoTitBottom {
+				margin-top: 15px;
+			}
+			
+			.infoTitBottom ul li {
+				float: left;
+				margin-right: 15px;
+			}
+			
+			.infoTitBottom ul li a {
+				margin-left: 3px;
+				color: #000!important;
+				background: url(http://y1.ifengimg.com/314bd925cdd17196/2014/0620/infoTitleAddCoin.png) no-repeat left;
+				padding-left: 10px;
+				display: block;
+			}
+			
+			.infoTitBottom ul li a:hover {
+				color: #004276!important;
+				text-decoration: none;
+			}
+			
+			.OpenTopPic a {
+				background: url(http://y3.ifengimg.com/314bd925cdd17196/2014/0725/openTopPic.png) no-repeat 0px 0px;
+				width: 23px;
+				height: 86px;
+				display: block;
+				position: absolute;
+				top: -50px;
+				right: -10px;
+				display: none;
+			}
+			
+			.OpenTopPic a:hover {
+				background-position: -23px 0px;
+			}
+		&lt;/style&gt;
+
+		&lt;!--网友评论 begin--&gt;
+		&lt;div lark-source="elem254" class="wrapper"&gt;
+			&lt;script lark-source="elem255"&gt;
+				var cmt_config = {
+					'docTitle': "台湾高雄发生6.4级强震",
+					'docUrl': "http://news.ifeng.com/taiwan/special/twgxfs64jqz/", // 所属页面地址
+					'isSpecial': true, // 所属页面地址是否为专题地址
+					'skey': "477104",
+					'hotLimit': 2,
+					'newLimit': 2
+				};
+			&lt;/script&gt;
+			&lt;script lark-source="elem256"&gt;
+				cmt_config.cmtViewUrl = 'http://gentie.ifeng.com/view.html';
+				cmt_config.cmtViewSpecialUrl = 'http://gentie.ifeng.com/view.html';
+			&lt;/script&gt;
+			&lt;script lark-source="elem257" src="http://y0.ifengimg.com/fe/detail/scripts/base-core_5664eba4.min.js"&gt;&lt;/script&gt;
+			&lt;div lark-source="elem258" id="js_cmtContainer"&gt;&lt;/div&gt;
+			&lt;!--注意噢，这个div的ID跟下面创建组件时传入的参数一支--&gt;
+			&lt;script lark-source="elem259"&gt;
+				// 此处为各终端上，评论组件的样式文件。可自己订制～
+				if(glue.device.type == "pc") {
+					document.write('&lt;link lark-source="elem260" rel="stylesheet" href="http://y0.ifengimg.com/a/2015/1030/yhc/detail_depmodules_pc_fc58ea2a.min.css"&gt;');
+				}
+
+				if(glue.device.type == "mobile") {
+					document.write('&lt;link lark-source="elem261" rel="stylesheet" href="http://y0.ifengimg.com/fe/detail/styles/detail_depmodules_mobile_23cd421b.min.css"&gt;');
+				}
+
+				if(glue.device.type == "pad") {
+					document.write('&lt;link lark-source="elem262" rel="stylesheet" href="http://y0.ifengimg.com/fe/detail/styles/detail_depmodules_pad_181b1941.min.css"&gt;');
+				}
+				// 此处为评论组件依赖的一些其他组件
+				requirejs.config({
+					paths: {
+						"public_login": "http://y1.ifengimg.com/commonpage/public_login/2015/public_login_new.min",
+						"jquery#1.8.1": "http://y1.ifengimg.com/fe/jQuery/jquery-1.8.1.min",
+						"artTemplate#3.0.3": "http://y0.ifengimg.com/fe/detail/scripts/detail_depmodules_07b1b7a3.min"
+					},
+					waitSeconds: 20,
+					shim: {}
+				});
+
+				// 根据设备不同，加载不同的脚本
+				if(glue.device.type == "pad") {
+					requirejs.config({
+						paths: {
+							"F_comment_new#1.2.6": "http://y0.ifengimg.com/fe/detail/scripts/detail_depmodules_pad_4919f12f.min"
+						},
+						waitSeconds: 20,
+						shim: {}
+					});
+				} else if(glue.device.type == "mobile") {
+					requirejs.config({
+						paths: {
+							"F_comment_new#1.2.6": "http://y0.ifengimg.com/fe/detail/scripts/detail_depmodules_mobile_9ff0c225.min"
+						},
+						waitSeconds: 20,
+						shim: {}
+					});
+				} else if(glue.device.type == "pc") {
+					requirejs.config({
+						paths: {
+							"F_comment_new#1.2.6": "http://y0.ifengimg.com/fe/detail/scripts/detail_depmodules_pc_a07575e1.min"
+						},
+						waitSeconds: 20,
+						shim: {}
+					});
+				}
+				require(['jquery#1.8.1'], function() {
+					jQuery.noConflict();
+				});
+				require(['F_comment_new#1.2.6'], function(cmt) {
+					var cmtData = cmt_config;
+					if(cmtData.isSpecial) {
+						cmtData.specUrl = cmtData.docUrl; // 如果为专题，speUrl为docUrl
+					}
+					new cmt(glue).create('js_cmtContainer', cmtData); // 注意这里传入了一个dom id和data
+				});
+			&lt;/script&gt;
+		&lt;/div&gt;
+		&lt;!--网友评论 end--&gt;
+
+		&lt;!--start底部导航通用--&gt;
+
+		&lt;style lark-source="elem263"&gt;
+			.chaFotNav ul,
+			.chaFotNav li {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.chaFotNav li {
+				list-style: none;
+			}
+			
+			.chaFotNav {
+				width: 998px;
+				border: 1px #d9d9d9 solid;
+				margin: 0 auto 10px auto;
+				font-family: simsun, Arial;
+				font-size: 12px;
+				clear: both;
+			}
+			
+			.chaFotNav .endNList {
+				width: 772px;
+				float: left;
+				padding: 8px 0px;
+			}
+			
+			.chaFotNav .endNList li {
+				padding: 0px 4px 0px 5px;
+				background: url(http://y1.ifengimg.com/7ac2c348225d4131/2012/0813/fcutlin.gif) right center no-repeat;
+				float: left;
+			}
+			
+			.chaFotNav .endNList li a {
+				color: #2b2b2b;
+				text-decoration: none;
+			}
+			
+			.chaFotNav .endNList li a:hover {
+				text-decoration: underline;
+			}
+			
+			.chaFotNav .navFocus {
+				width: 200px;
+				padding: 5px 0 0 0px;
+				margin: 0 0px 0 0;
+				color: #ba2636;
+				line-height: 18px;
+				float: right;
+			}
+			
+			.chaFotNav .navFocus a {
+				line-height: 18px;
+				text-decoration: none;
+			}
+			
+			.chaFotNav .navFocus a:hover {
+				text-decoration: underline;
+			}
+			
+			.chaFotNav .navV a,
+			.chaFotNav .navVIP a,
+			.chaFotNav .ifengPlay a,
+			.chaFotNav .tvPlay a,
+			.chaFotNav .navWap a,
+			.chaFotNav .navTmp a {
+				color: #ba2636;
+			}
+			
+			.chaFotNav .navV {
+				width: 37px;
+				background: url(http://y1.ifengimg.com/7ac2c348225d4131/2012/0813/camera.gif) no-repeat 1px 4px;
+				padding: 0 0 0 17px;
+				float: left
+			}
+			
+			.chaFotNav .navTmp {
+				width: 37px;
+				float: left;
+			}
+			
+			.chaFotNav .ifengPlay {
+				width: 37px;
+				float: left;
+			}
+			
+			.chaFotNav .tvPlay {
+				width: 55px;
+				background: url(http://y1.ifengimg.com/7ac2c348225d4131/2012/0813/tvico.gif) no-repeat 0px 3px;
+				padding: 0 0 0 15px;
+				float: left
+			}
+			
+			.chaFotNav .navWap {
+				width: 30px;
+				background: url(http://y1.ifengimg.com/7ac2c348225d4131/2012/0813/phoneico.gif) no-repeat 0px 2px;
+				padding: 0 0 0 11px;
+				float: left
+			}
+			
+			.chaFotNav .nextTop {
+				width: 40px;
+				height: 20px;
+				padding: 7px 0 0 3px;
+				border-left: 1px #d9d9d9 solid;
+				float: left
+			}
+			
+			.chaFotNav02 {
+				width: 1000px;
+				height: 26px;
+				margin: 0 auto;
+				background: url(http://y1.ifengimg.com/7ac2c348225d4131/2012/0813/icon02_04.gif) repeat-x top;
+				font-size: 0px;
+				line-height: 0px;
+				clear: both
+			}
+			
+			.chaFooter {
+				color: #000;
+				width: 1000px;
+				height: 90px;
+				margin: 0 auto;
+				clear: both;
+				text-align: center;
+				line-height: 24px;
+				font-family: Arial, simsun;
+				font-size: 12px;
+			}
+			
+			.chaFooter a {
+				color: #000;
+				text-decoration: none;
+			}
+			
+			.chaFooter a:hover {
+				color: #000;
+				text-decoration: underline;
+			}
+			
+			.chaFooter .footLink {
+				line-height: 22px;
+			}
+			
+			.chaFooter .footLink a {
+				padding: 0px 8px;
+			}
+			
+			.chaFooter .copyright {
+				color: #000;
+				line-height: 22px;
+			}
+		&lt;/style&gt;
+
+		&lt;div lark-source="elem264" class="chaFotNav" style="margin-top:10px;"&gt;
+			&lt;ul lark-source="elem265" class="endNList"&gt;
+				&lt;li lark-source="elem266"&gt;
+					&lt;a lark-source="elem267" href="http://www.ifeng.com/" target="_blank"&gt;首页&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem268"&gt;
+					&lt;a lark-source="elem269" href="http://news.ifeng.com/" target="_blank"&gt;资讯&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem270"&gt;
+					&lt;a lark-source="elem271" href="http://news.ifeng.com/taiwan/" target="_blank"&gt;台湾&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem272"&gt;
+					&lt;a lark-source="elem273" href="http://opinion.ifeng.com/" target="_blank"&gt;评论&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem274"&gt;
+					&lt;a lark-source="elem275" href="http://finance.ifeng.com/" target="_blank"&gt;财经&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem276"&gt;
+					&lt;a lark-source="elem277" href="http://auto.ifeng.com/" target="_blank"&gt;汽车&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem278"&gt;
+					&lt;a lark-source="elem279" href="http://tech.ifeng.com/" target="_blank"&gt;科技&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem280"&gt;
+					&lt;a lark-source="elem281" href="http://house.ifeng.com/" target="_blank"&gt;房产&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem282"&gt;
+					&lt;a lark-source="elem283" href="http://yayun2010.ifeng.com/" target="_blank"&gt;亚运&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem284"&gt;
+					&lt;a lark-source="elem285" href="http://ent.ifeng.com/" target="_blank"&gt;娱乐&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem286"&gt;
+					&lt;a lark-source="elem287" href="http://fashion.ifeng.com/" target="_blank"&gt;时尚&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem288"&gt;
+					&lt;a lark-source="elem289" href="http://news.ifeng.com/sports/" target="_blank"&gt;体育&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem290"&gt;
+					&lt;a lark-source="elem291" href="http://news.ifeng.com/mil/" target="_blank"&gt;军事&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem292"&gt;
+					&lt;a lark-source="elem293" href="http://news.ifeng.com/history/" target="_blank"&gt;历史&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem294"&gt;
+					&lt;a lark-source="elem295" href="http://book.ifeng.com/" target="_blank"&gt;读书&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem296"&gt;
+					&lt;a lark-source="elem297" href="http://edu.ifeng.com/" target="_blank"&gt;教育&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem298"&gt;
+					&lt;a lark-source="elem299" href="http://health.ifeng.com/" target="_blank"&gt;健康&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem300"&gt;
+					&lt;a lark-source="elem301" href="http://baby.ifeng.com/" target="_blank"&gt;亲子&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem302"&gt;
+					&lt;a lark-source="elem303" href="http://games.ifeng.com/" target="_blank"&gt;游戏&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem304"&gt;
+					&lt;a lark-source="elem305" href="http://city.ifeng.com/" target="_blank"&gt;城市&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem306"&gt;
+					&lt;a lark-source="elem307" href="http://bbs.ifeng.com/" target="_blank"&gt;论坛&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem308"&gt;
+					&lt;a lark-source="elem309" href="http://blog.ifeng.com/" target="_blank"&gt;博报&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li lark-source="elem310" class="end"&gt;
+					&lt;a lark-source="elem311" href="http://t.ifeng.com/" target="_blank"&gt;微博&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;div lark-source="elem312" class="navFocus"&gt;
+				&lt;div lark-source="elem313" class="navV"&gt;
+					&lt;a lark-source="elem314" href="http://v.ifeng.com/" target="_blank"&gt;宽频&lt;/a&gt;·&lt;/div&gt;
+				&lt;div lark-source="elem315" class="navTmp"&gt;
+					&lt;a lark-source="elem316" href="http://v.ifeng.com/view/index.shtml" target="_blank"&gt;视点&lt;/a&gt;·&lt;/div&gt;
+				&lt;div lark-source="elem317" class="ifengPlay"&gt;
+					&lt;a lark-source="elem318" href="http://v.ifeng.com/live/" target="_blank"&gt;直播&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div lark-source="elem319" class="tvPlay"&gt;
+					&lt;a lark-source="elem320" href="http://phtv.ifeng.com/" target="_blank"&gt;凤凰卫视&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div lark-source="elem321" class="clear"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div lark-source="elem322" class="chaFotNav02"&gt;&lt;/div&gt;
+		&lt;!--底部导航 End--&gt;
+		&lt;div lark-source="elem323" class="chaFooter"&gt;
+			&lt;div lark-source="elem324" class="footLink"&gt;
+				&lt;a lark-source="elem325" href="http://www.ifeng.com/corp/about/intro/" target="_blank"&gt;凤凰新媒体介绍&lt;/a&gt;|
+				&lt;a lark-source="elem326" href="http://sd.ifeng.com/zbc/detail_2013_02/22/597165_0.shtml" target="_blank"&gt;凤凰山东频道简介&lt;/a&gt;|
+				&lt;a lark-source="elem327" href="http://sd.ifeng.com/zt/sdgg/ " target="_blank"&gt;广告服务&lt;/a&gt;|
+				&lt;a lark-source="elem328" href="http://sd.ifeng.com/zt/sdzp/index.shtml" target="_blank"&gt;诚征英才&lt;/a&gt;|
+				&lt;a lark-source="elem329" href="http://www.ifeng.com/corp/privacy/" target="_blank"&gt;保护隐私权&lt;/a&gt;|
+				&lt;a lark-source="elem330" href="http://www.ifeng.com/corp/exemption/" target="_blank"&gt;免责条款&lt;/a&gt;|
+				&lt;a lark-source="elem331" href="http://www.ifeng.com/corp/counselor/" target="_blank"&gt;法律顾问&lt;/a&gt;|
+				&lt;a lark-source="elem332" href="http://ir.ifeng.com/" target="_blank"&gt;投资者关系 Investor Relations&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div lark-source="elem333" class="copyright"&gt; &lt;span style="color:red;"&gt;凤凰网城市联盟监督电话：010-60675241  监督及意见反馈邮箱：gaoshan@ifeng.com&lt;/span&gt; &lt;/div&gt;
+			&lt;div lark-source="elem334" class="copyright"&gt; 凤凰新媒体 版权所有&lt;br&gt; Copyright © 2013 Phoenix New Media Inc. All Rights Reserved. &lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!--end底部导航通用--&gt;
+		&lt;script lark-source="elem335"&gt;
+			var sta_collection_time = new Date().getTime();
+		&lt;/script&gt;
+
+		&lt;script lark-source="elem336" id="sta_collection_new"&gt;
+			window.analytics(encodeURIComponent(window.location.href));
+			setTimeout(function() {
+				window.aptracker.collection();
+			}, 800);
+		&lt;/script&gt;
+
+		&lt;script lark-source="elem337" src="http://y0.ifengimg.com/20140429/sta_collection.3.3.15.min.js" id="sta_collection_new"&gt;&lt;/script&gt;
+		&lt;script lark-source="elem338" src="http://y2.ifengimg.com/05d7c5c07c1ed4f3/2015/1222/rdn_5678ba8cee242.js"&gt;&lt;/script&gt;
+
+		&lt;script lark-source="elem339" type="text/javascript"&gt;
+			(function($) {
+				// 自己写的jq 
+				$('.part1 .flexslider').flexslider({
+					animation: "slide"
+				});
+
+				$("#pikame").PikaChoose({
+					carousel: true,
+					carouselOptions: {
+						wrap: 'circular'
+					}
+				});
+
+			})(jQuery);
+		&lt;/script&gt;
+	&lt;/body&gt;
+
+&lt;/html&gt;</page_index>
+    </body>
+</root>
