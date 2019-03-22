@@ -6,6 +6,8 @@
  * @author              maoxiaoqi <15501100090@163.com> <qq:3677989>
  *
  * 您可以自由使用该源码，但是在使用过程中，请保留作者信息。尊重他人劳动成果就是尊重自己
+ *
+ * type 0编译器 1代码 2数据列表
  */
 namespace controllers\admin;
 
@@ -78,7 +80,7 @@ class special_block extends admin_base{
 
         $where = implode( ' AND ', $_where );
 
-        return $this->db_special_model->select( 'id,name', $where);
+        return $this->db_special_model->select( 'id,name,field', $where);
     }
 
     /*
@@ -98,7 +100,7 @@ class special_block extends admin_base{
                     $infos['content '] = gpc( 'content', 'P' );
                     break;
                 case 1:case 2:
-                    $infos['content'] = gpc( 'new_content', 'P' );
+                    $infos['content'] =  gpc( 'new_content', 'P' );
                     break;
 
             }
@@ -152,6 +154,7 @@ class special_block extends admin_base{
 
             $infos = gpc( 'infos', 'P' );
 
+
             $id = gpc( 'id', 'P' );
 
             if( empty( $infos['name'] ) ) $this->show_message( '请输入碎片键值' );
@@ -164,6 +167,7 @@ class special_block extends admin_base{
                     break;
                 case 1:case 2:
                     $infos['content'] = gpc( 'new_content', 'P' );
+
                     break;
 
             }

@@ -14,15 +14,15 @@
 
         <header>
             <header class="panel-heading">
-                <a href="<?=make_url( __M__, __C__, 'index', [ 'sid='.$sid ] )?>" class="btn btn-info btn-sm" id="index-listing">
+                <a href="<?=make_url( __M__, __C__, 'index', [ 'sid='.$id ] )?>" class="btn btn-info btn-sm" id="index-listing">
                     <i class="icon-gears2 btn-icon"></i>
                     <?php if( !empty( $special_infos ) ):?>
                         <?=$special_infos['name']?> -
                     <?php endif;?>
-                    模型列表
+                    模型数据列表
                 </a>
-                <a href="<?=make_url( __M__, __C__, 'add', [ 'sid='.$sid ] )?>" class="btn btn-default btn-sm" id="index-add">
-                    <i class="icon-plus btn-icon"></i>添加模型
+                <a href="<?=make_url( __M__, __C__, 'add', [ 'sid='.$id ] )?>" class="btn btn-default btn-sm" id="index-add">
+                    <i class="icon-plus btn-icon"></i>添加模型数据
                 </a>
             </header>
         </header>
@@ -33,7 +33,7 @@
                     <thead>
                     <tr>
                         <th class="tablehead">ID</th>
-                        <th class="tablehead">模型名称</th>
+                        <th class="tablehead">数据内容</th>
                         <th class="tablehead">创建时间</th>
                         <th class="tablehead">操作</th>
                     </tr>
@@ -43,11 +43,10 @@
                     <tr id="m_<?=$v['id']?>">
 
                         <td><?=$v['id']?></td>
-                        <td><a href="<?=make_url( __M__, __C__, 'index_field', ['id='.$v['id']])?>" class="menunamea"><?=$v['name']?> <i class="icon-gears2"></i></a> </td>
+                        <td><a href="<?=make_url( __M__, __C__, 'index_field', ['id='.$v['id']])?>" class="menunamea"><?=$v['content']?> <i class="icon-gears2"></i></a> </td>
                         <td><?=date( 'Y-m-d H:i:s', $v['createtime'] )?></td>
 
                         <td>
-                            <a href="<?=make_url( __M__, 'special_data', 'index', ['smid='.$v['id']] )?>" class="btn btn-info btn-xs">专题数据管理</a>
                             <a href="<?=make_url( __M__, __C__, 'edit', ['id='.$v['id']] )?>" class="btn btn-primary btn-xs">修改</a>
                             <a href="javascript:void(0)" onclick="del('<?=make_url( __M__, __C__, 'del', ['id='.$v['id']] )?>', <?=$v['id']?>)" class="btn btn-danger btn-xs">删除</a>
                         </td>

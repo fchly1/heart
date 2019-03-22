@@ -11,18 +11,19 @@ namespace controllers\admin;
 
 use services\specials\special_field;
 use services\admin_base;
+use heart\utils\form;
 
-class special_data_model extends admin_base{
+class special_data extends admin_base{
 
     public $db = [];
     public function __construct() {
         parent::__construct();
 
         //专题模型
-        $this->db = load_model( 'admin_special_model' );
+        $this->db = load_model( 'admin_special_data' );
 
         //专题数据
-        $this->db_special_data = load_model( 'admin_special_data' );
+        $this->db_special_model = load_model( 'admin_special_model' );
 
         //专题
         $this->db_special = load_model( 'admin_special' );
@@ -37,27 +38,33 @@ class special_data_model extends admin_base{
      * @return tpl
      * */
     public function index() {
-        $sid = gpc( 'sid' );
+        $smid = gpc( 'smid' );
         $_where = $special_infos = [];
 
-        if( !empty( $sid ) ) {
-            $special_infos = $this->db_special->get_one( 'id,name', [ 'id' => $sid ] );
-            $_where[] = 'sid='.$sid;
+        if( !empty( $smid ) ) {
+            $special_infos = $this->db_special_model->get_one( 'id,name', [ 'id' => $smid ] );
+            $_where[] = 'smid='.$smid;
         } else {
             //sid = 0 属于公共模型部分
-            $_where[] = 'sid=0';
+            //$_where[] = 'smid=0';
 
         }
+
 
 
         $where = implode( ' AND ', $_where );
 
         $lists = $this->db->select_lists( '*', $where, '10', 'id ASC');
 
+        foreach ($lists as &$v){
+            $v['content']= json_decode($v['content'],true);
+
+        }
+
         $this->view->assign( 'page', $this->db->page );
         //专题信息
         $this->view->assign( 'special_infos', $special_infos );
-        $this->view->assign( 'sid', ( $sid ) ? $sid : 0 );
+        $this->view->assign( 'id', ( $smid ) ? $smid : 0 );
         $this->view->assign( 'lists', $lists );
         $this->view->display();
     }
@@ -69,12 +76,13 @@ class special_data_model extends admin_base{
      * */
     public function add() {
         if( gpc( 'dosubmit', 'P' ) ) {
+
             $infos = gpc( 'infos', 'P' );
 
-            if( empty( $infos['name'] ) ) $this->show_message( '请输入模型名称' );
+            if( empty( $infos['smid'] ) ) $this->show_message( '添加错误' );
 
             $infos['createtime'] = $infos['updatetime'] = time();
-
+            $infos['content'] = json_encode($infos['content'], JSON_UNESCAPED_UNICODE);
             if( $this->db->insert( $infos ) ) {
 //                 $this->show_message( '操作成功', make_url( __M__, __C__, 'index' ) );
                 $this->show_message( '操作成功' );
@@ -83,14 +91,19 @@ class special_data_model extends admin_base{
             }
         }
 
-        $sid = gpc( 'sid' );
+        $smid = gpc( 'smid' );
         $spcial_infos = [];
-        if( !empty( $sid ) ) {
-            $spcial_infos = $this->db_special->get_one( 'id,name', [ 'id' => $sid ] );
+        if( !empty( $smid ) ) {
+            $spcial_infos = $this->db_special_model->get_one( 'id,name,field', [ 'id' => $smid ] );
         }
 
+        $this->view->assign( 'editor', form::editor('content' , 'content', '', 'normal') );
+        $this->view->assign('atta', form::attachment('' ,1 , 'infos[cover]', '', ''));
+        $this->view->assign('attas', form::attachment('' ,3 , 'infos[covers]', '', ''));
+
         $this->view->assign( 'special_infos', $spcial_infos );
-        $this->view->assign( 'sid', ( !empty( $sid ) ) ? $sid : 0 );
+        $this->view->assign( 'smid', ( !empty( $smid ) ) ? $smid : 0 );
+        $this->view->assign( 'field', json_decode($spcial_infos['field'], true));
         $this->view->display();
     }
 
@@ -104,13 +117,17 @@ class special_data_model extends admin_base{
             $infos = gpc( 'infos', 'P' );
             $id= gpc( 'id', 'P' );
 
-            if( empty( $infos['name'] ) ) $this->show_message( '请输入模型名称' );
+
+
+            if( empty( $infos['content'] ) ) $this->show_message( '系统错误' );
+
+            $infos['content'] = json_encode($infos['content'], JSON_UNESCAPED_UNICODE);
 
             $infos['updatetime'] = time();
 
             if( $this->db->update( $infos, ['id' => $id] ) ) {
-                $sid = ( isset( $infos['sid'] ) ) ? $infos['sid'] : 0 ;
-                $this->show_message( '操作成功', make_url( __M__, __C__, 'index', [ 'sid='.$sid ] ) );
+                $sid = ( isset( $infos['smid'] ) ) ? $infos['smid'] : 0 ;
+                $this->show_message( '操作成功', make_url( __M__, __C__, 'index', [ 'smid='.$sid ] ) );
             } else {
                 $this->show_message( '操作失败,请联系管理员.' );
             }
@@ -124,12 +141,31 @@ class special_data_model extends admin_base{
 
         //专题相关信息
         $spcial_infos = [];
-        if( !empty( $infos['sid'] ) ) {
-            $spcial_infos = $this->db_special->get_one( 'id,name', [ 'id' => $infos['sid'] ] );
+        if( !empty( $infos['smid'] ) ) {
+            $spcial_infos = $this->db_special_model->get_one( 'id,name,field', [ 'id' => $infos['smid'] ] );
         }
+
+        $spcial_infos['field'] = json_decode($spcial_infos['field'],true);
+
+        $infos['content'] = json_decode($infos['content'],true);
+
+        foreach ($spcial_infos['field'] as $k => $v){
+            if($v['type'] == 'editor'){
+                $fieldName = $v['field_name'];
+                $this->view->assign( 'editor', form::editor('infos[content]['.$fieldName.']' , 'content', $infos['content'][$fieldName], 'normal') );
+            }
+            if($v['type'] == 'image'){
+                $fieldName = $v['field_name'];
+                //$this->view->assign('atta', form::attachment('' ,1 , 'infos[content]['.$fieldName.']', $this->domain_upload_path.$infos['content'][$fieldName], ''));
+            }
+        }
+
+
+        //$this->view->assign('attas', form::attachment('' ,3 , 'infos[content][covers]', '', ''));
 
         $this->view->assign( 'infos', $infos );
         $this->view->assign( 'special_infos', $spcial_infos );
+        $this->view->assign( 'field',  $spcial_infos['field'] );
         $this->view->display();
     }
 

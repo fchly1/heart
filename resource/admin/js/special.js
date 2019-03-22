@@ -39,7 +39,7 @@
             var self = d.data.self,
                 _options = self._options;
 
-            
+
             var type = $(this).attr( 'data-type'),
                 name = $(this).attr( 'data-name'),
                 id = $(this).attr( 'data-id'),

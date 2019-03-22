@@ -328,7 +328,7 @@ EOF;
                $this->create_dirs($this->special_show_path.$infos['urlpath'].'/');
             }
             $origin_str = fopen($this->special_show_path.$infos['urlpath'].'/'.$page_url,"w");
-            fwrite($origin_str,$block->get());
+            fwrite($origin_str,$block->compile_get());
             fclose($origin_str);
         }
 

@@ -29,6 +29,7 @@ class block extends controller {
         $this->id = $id;
 
         $this->db_block = load_model( 'admin_special_block' );
+        $this->db_special_data = load_model( 'admin_special_data' );
     }
 
     /*
@@ -91,7 +92,7 @@ class block extends controller {
                 //$rs = $infos['content'];
                 break;
             case 2:
-                $rs = '我是列表';
+                $rs = $this->block_list( $infos );
                 break;
         }
 
@@ -121,6 +122,43 @@ class block extends controller {
         $html = $this->html;
         $html .= $this->block_script();
         return $html;
+    }
+
+    /*
+ * compile 获取HTML
+ *
+ * @return string;
+ * */
+    public function compile_get() {
+        $html = $this->html;
+        $html = preg_replace('/(\s)lark-source=[^\s]*/','',$html);
+        return $html;
+    }
+
+    /**
+     * 数据列表
+     * @param $arr  模型列表数据
+     *
+     * @return string
+     */
+    public function block_list($arr){
+        $where = 'smid='.$arr['mid'];
+        //模型下的数据
+        $mData = $this->db_special_data->select_lists( '*', $where, '10', 'id DESC');
+        $result = '';
+        foreach ($mData as $k => $v){
+            $content = json_decode($v['content'],true);
+            //模型模板
+            $html = $arr['content'];
+            foreach ($content as $ck => $cv){
+                //替换模板变量
+                $html = preg_replace('/\$'.$ck.'/',$cv,$html) ;
+            }
+            $result .= $html;
+        }
+        return $result;
+
+
     }
 
     /*
@@ -413,7 +451,7 @@ function getPageInfo(){
 }
 
 function codeEdit(){
-    dialog_tpl('http://localhost:9011/admin/special_tpl/view?id=93','源码编辑','editcode',1200,800)
+    dialog_tpl('http://localhost:9011/admin/special_tpl/view?id=' + getParam('id'),'源码编辑','editcode',1200,800)
 }
 
 function html2Escape(sHtml) {

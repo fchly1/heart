@@ -1,0 +1,5 @@
+[fatal] [2019.03.21 17:00:48] [Class '\controllers\favicon.ico\index' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/favicon.ico|127.0.0.1]
+[fatal] MySQL Query Error: <br/>SELECT count(*) as total FROM heart_admin_special_data WHERE sid=0 LIMIT 1 <br/>Unknown column 'sid' in 'where clause' 
+[fatal] [2019.03.21 17:16:36] [Call to a member function setFetchMode() on boolean] [353行] [F:\work\heart-master\heart\libs\db\driver\pdo_mysql.php] [GET] [localhost:9011/admin/special_data/index|127.0.0.1]
+[fatal] MySQL Query Error: <br/>SELECT count(*) as total FROM heart_admin_special_data WHERE sid=0 LIMIT 1 <br/>Unknown column 'sid' in 'where clause' 
+[fatal] [2019.03.21 17:16:38] [Call to a member function setFetchMode() on boolean] [353行] [F:\work\heart-master\heart\libs\db\driver\pdo_mysql.php] [GET] [localhost:9011/admin/special_data/index|127.0.0.1]

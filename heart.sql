@@ -1,5 +1,5 @@
 ﻿# Host: localhost  (Version: 5.5.53)
-# Date: 2019-03-15 11:36:44
+# Date: 2019-03-22 16:30:13
 # Generator: MySQL-Front 5.3  (Build 4.234)
 
 /*!40101 SET NAMES utf8 */;
@@ -49,14 +49,14 @@ CREATE TABLE `heart_admin_menu` (
   `updatetime` int(11) NOT NULL,
   `icon` varchar(100) NOT NULL,
   PRIMARY KEY (`menuid`)
-) ENGINE=MyISAM AUTO_INCREMENT=53 DEFAULT CHARSET=utf8 COMMENT='èœå•åˆ—è¡¨';
+) ENGINE=MyISAM AUTO_INCREMENT=58 DEFAULT CHARSET=utf8 COMMENT='èœå•åˆ—è¡¨';
 
 #
 # Data for table "heart_admin_menu"
 #
 
 /*!40000 ALTER TABLE `heart_admin_menu` DISABLE KEYS */;
-INSERT INTO `heart_admin_menu` VALUES (7,0,'我的面板','none','none','none','type=1&flag=open',1,1,1552547624,1552547624,'appicons/1.png'),(8,0,'系统设置','none','none','none','',1,2,1481440255,1481440255,'appicons/2.png'),(9,8,'管理员管理','admin','user','index','',1,2,1481377551,1481377551,''),(10,8,'后台菜单管理','admin','menu','index','type=1&flag=open',1,1,1481380134,1481380134,''),(11,7,'系统信息','admin','index','right','',1,0,1552547935,1552547935,''),(12,7,'面板2','none','none','none','',1,0,1481377835,1481377835,''),(13,7,'面板3','none','none','none','',1,0,1481377941,1481377941,''),(14,8,'角色管理','admin','role','index','',1,0,1481388513,1481388513,''),(15,14,'修改','admin','role','edit','',1,0,1481436695,1481436695,''),(16,14,'添加','admin','role','add','',1,0,1481390811,1481390811,''),(17,14,'删除','admin','role','del','',1,0,1481390863,1481390863,''),(18,0,'后台首页','admin','index','cms','',0,0,1481436041,1481436041,''),(19,0,'版权首页','admin','index','right','',0,0,1481436397,1481436397,''),(20,10,'添加','admin','menu','add','',1,0,1481436905,1481436905,''),(21,10,'修改','admin','menu','edit','',1,0,1481436922,1481436922,''),(22,10,'删除','admin','menu','del','',1,0,1481436948,1481436948,''),(23,9,'添加','admin','user','add','',1,0,1481437024,1481437024,''),(24,9,'修改','admin','user','edit','',1,0,1481437045,1481437045,''),(25,9,'删除','admin','user','del','',1,0,1481437060,1481437060,''),(26,0,'专题管理','none','none','none','',1,3,1481440340,1481440340,'appicons/5.png'),(27,10,'排序','admin','menu','sort','',1,0,1481437425,1481437425,''),(28,26,'专题管理','admin','special','index','',1,0,1481441227,1481441227,''),(29,28,'添加','admin','special','add','',1,0,1481441542,1481441542,''),(30,28,'修改','admin','special','edit','',1,0,1481441562,1481441562,''),(31,28,'删除','admin','special','del','',1,0,1481441599,1481441599,''),(32,28,'上传附件','admin','attachment','upload_dialog','',1,0,1481464197,1481464197,''),(33,28,'H5上传','admin','attachment','h5upload','',1,0,1481518602,1481518602,''),(34,28,'可视化编辑','admin','special','view','',1,0,1481686258,1481686258,''),(35,26,'数据模块','admin','special_data','index','',1,0,1481737282,1481737282,''),(37,26,'数据模型','admin','special_data_model','index','',1,0,1481787220,1481787220,''),(38,37,'添加模型','admin','special_data_model','add','',1,0,1481860322,1481860322,''),(39,37,'修改模型','admin','special_data_model','edit','',1,0,1481860350,1481860350,''),(40,37,'删除模型','admin','special_data_model','del','',1,0,1481860378,1481860378,''),(41,37,'字段列表','admin','special_data_model','index_field','',1,0,1481860466,1481860466,''),(42,37,'添加字段','admin','special_data_model','add_field','',1,0,1481860488,1481860488,''),(43,37,'修改字段','admin','special_data_model','edit_field','',1,0,1481860507,1481860507,''),(44,37,'删除字段','admin','special_data_model','del_field','',1,0,1481881419,1481881419,''),(45,28,'数据管理','admin','special_data','index','',1,0,1481885560,1481885560,''),(46,28,'编辑模板','admin','special_tpl','view','',1,0,1481907592,1481907592,''),(47,28,'碎片管理','admin','special_block','index','',1,0,1481993607,1481993607,''),(48,47,'添加碎片','admin','special_block','add','',1,0,1481994175,1481994175,''),(49,47,'修改碎片','admin','special_block','edit','',1,0,1481994200,1481994200,''),(50,47,'删除碎片','admin','special_block','del','',1,0,1481994227,1481994227,''),(51,28,'专题展示','admin','special','show','',1,0,1552551596,1552551596,''),(52,28,'发布专题','admin','special','mark_html','',1,0,1552614066,1552614066,'');
+INSERT INTO `heart_admin_menu` VALUES (7,0,'我的面板','none','none','none','type=1&flag=open',1,1,1552547624,1552547624,'appicons/1.png'),(8,0,'系统设置','none','none','none','',1,2,1481440255,1481440255,'appicons/2.png'),(9,8,'管理员管理','admin','user','index','',1,2,1481377551,1481377551,''),(10,8,'后台菜单管理','admin','menu','index','type=1&flag=open',1,1,1481380134,1481380134,''),(11,7,'系统信息','admin','index','right','',1,0,1552547935,1552547935,''),(12,7,'面板2','none','none','none','',1,0,1481377835,1481377835,''),(13,7,'面板3','none','none','none','',1,0,1481377941,1481377941,''),(14,8,'角色管理','admin','role','index','',1,0,1481388513,1481388513,''),(15,14,'修改','admin','role','edit','',1,0,1481436695,1481436695,''),(16,14,'添加','admin','role','add','',1,0,1481390811,1481390811,''),(17,14,'删除','admin','role','del','',1,0,1481390863,1481390863,''),(18,0,'后台首页','admin','index','cms','',0,0,1481436041,1481436041,''),(19,0,'版权首页','admin','index','right','',0,0,1481436397,1481436397,''),(20,10,'添加','admin','menu','add','',1,0,1481436905,1481436905,''),(21,10,'修改','admin','menu','edit','',1,0,1481436922,1481436922,''),(22,10,'删除','admin','menu','del','',1,0,1481436948,1481436948,''),(23,9,'添加','admin','user','add','',1,0,1481437024,1481437024,''),(24,9,'修改','admin','user','edit','',1,0,1481437045,1481437045,''),(25,9,'删除','admin','user','del','',1,0,1481437060,1481437060,''),(26,0,'专题管理','none','none','none','',1,3,1481440340,1481440340,'appicons/5.png'),(27,10,'排序','admin','menu','sort','',1,0,1481437425,1481437425,''),(28,26,'专题列表','admin','special','index','',1,0,1552895437,1552895437,''),(29,28,'添加','admin','special','add','',1,0,1481441542,1481441542,''),(30,28,'修改','admin','special','edit','',1,0,1481441562,1481441562,''),(31,28,'删除','admin','special','del','',1,0,1481441599,1481441599,''),(32,28,'上传附件','admin','attachment','upload_dialog','',1,0,1481464197,1481464197,''),(33,28,'H5上传','admin','attachment','h5upload','',1,0,1481518602,1481518602,''),(34,28,'可视化编辑','admin','special','view','',1,0,1481686258,1481686258,''),(35,26,'数据模块','admin','special_data','index','',1,0,1481737282,1481737282,''),(37,26,'数据模型','admin','special_data_model','index','',1,0,1481787220,1481787220,''),(38,37,'添加模型','admin','special_data_model','add','',1,0,1481860322,1481860322,''),(39,37,'修改模型','admin','special_data_model','edit','',1,0,1481860350,1481860350,''),(40,37,'删除模型','admin','special_data_model','del','',1,0,1481860378,1481860378,''),(41,37,'字段列表','admin','special_data_model','index_field','',1,0,1481860466,1481860466,''),(42,37,'添加字段','admin','special_data_model','add_field','',1,0,1481860488,1481860488,''),(43,37,'修改字段','admin','special_data_model','edit_field','',1,0,1481860507,1481860507,''),(44,37,'删除字段','admin','special_data_model','del_field','',1,0,1481881419,1481881419,''),(45,28,'数据管理','admin','special_data','index','',1,0,1481885560,1481885560,''),(46,28,'编辑模板','admin','special_tpl','view','',1,0,1481907592,1481907592,''),(47,28,'碎片管理','admin','special_block','index','',1,0,1481993607,1481993607,''),(48,47,'添加碎片','admin','special_block','add','',1,0,1481994175,1481994175,''),(49,47,'修改碎片','admin','special_block','edit','',1,0,1481994200,1481994200,''),(50,47,'删除碎片','admin','special_block','del','',1,0,1481994227,1481994227,''),(51,28,'专题展示','admin','special','show','',1,0,1552551596,1552551596,''),(52,28,'发布专题','admin','special','mark_html','',1,0,1552614066,1552614066,''),(53,28,'获取模板参数','admin','special_tpl','getViewData','',1,0,1553049648,1553049648,''),(54,37,'专题数据管理','admin','special_data_model','datalists','',1,0,1553157928,1553157928,''),(55,35,'添加模型数据','admin','special_data','add','',1,0,1553217784,1553217784,''),(56,35,'删除模型数据','admin','special_data','del','',1,0,1553224477,1553224477,''),(57,35,'编辑模型数据','admin','special_data','edit','',1,0,1553232956,1553232956,'');
 /*!40000 ALTER TABLE `heart_admin_menu` ENABLE KEYS */;
 
 #
@@ -79,7 +79,7 @@ CREATE TABLE `heart_admin_role` (
 #
 
 /*!40000 ALTER TABLE `heart_admin_role` DISABLE KEYS */;
-INSERT INTO `heart_admin_role` VALUES (1,'后台管理员','后台管理员','18,19,7,11,12,13,8,14,15,16,17,10,20,21,22,27,9,23,24,25,26,37,40,39,38,41,42,44,43,35,28,52,34,33,32,31,51,47,50,49,48,46,30,29',1552614110,1552614110),(2,'审核人','','19,18,8,10,9,25,23',1481437224,1481437224),(3,'运营','运营','8,14,17,16,15,10,9,7,13,12,11',1481429844,1481429844),(4,'编辑','编辑','',1481429824,1481429824);
+INSERT INTO `heart_admin_role` VALUES (1,'后台管理员','后台管理员','19,18,7,13,12,11,8,14,17,16,15,10,20,21,27,22,9,25,24,23,26,37,44,43,42,41,40,38,54,39,35,57,56,55,28,34,33,46,53,52,51,47,50,49,48,32,31,30,29',1553232968,1553232968),(2,'审核人','','19,18,8,10,9,25,23',1481437224,1481437224),(3,'运营','运营','8,14,17,16,15,10,9,7,13,12,11',1481429844,1481429844),(4,'编辑','编辑','',1481429824,1481429824);
 /*!40000 ALTER TABLE `heart_admin_role` ENABLE KEYS */;
 
 #
@@ -93,20 +93,21 @@ CREATE TABLE `heart_admin_special` (
   `description` text NOT NULL,
   `createtime` int(11) NOT NULL DEFAULT '0',
   `updatetime` int(11) NOT NULL DEFAULT '0',
-  `files` varchar(50) NOT NULL COMMENT 'æ–‡ä»¶ä¿¡æ¯',
+  `files` varchar(50) NOT NULL DEFAULT '' COMMENT '页面文件（html）',
   `status` int(1) NOT NULL DEFAULT '0' COMMENT 'çŠ¶æ€',
-  `cover` varchar(200) NOT NULL DEFAULT '' COMMENT 'ä¸“é¢˜å°é¢',
-  `zip` varchar(200) NOT NULL DEFAULT '' COMMENT 'ZIPåŽ‹ç¼©åŒ…',
-  `directory` varchar(200) NOT NULL COMMENT 'ä¸“é¢˜ç›®å½•',
+  `cover` varchar(200) NOT NULL DEFAULT '' COMMENT '图片',
+  `zip` varchar(200) NOT NULL DEFAULT '' COMMENT 'ZIP文件地址',
+  `directory` varchar(200) NOT NULL DEFAULT '' COMMENT '解压目录',
+  `urlpath` varchar(255) DEFAULT NULL COMMENT '访问url',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=57 DEFAULT CHARSET=utf8 COMMENT='专题表';
+) ENGINE=MyISAM AUTO_INCREMENT=98 DEFAULT CHARSET=utf8 COMMENT='专题表';
 
 #
 # Data for table "heart_admin_special"
 #
 
 /*!40000 ALTER TABLE `heart_admin_special` DISABLE KEYS */;
-INSERT INTO `heart_admin_special` VALUES (56,'其它','',1552612666,1552612666,'index.html',0,'','20190315/o_1d5vdbnos7qm1kbm4m14d41ph8a.zip','zxyy-0918'),(57,'测试','',1552617734,1552617734,'index.html',0,'','20190315/o_1d5vjktr91savnfvkss1h1416kta.zip','ffmtx-0914'),(58,'测试3','',1552618789,1552618789,'aaa.html,index.html',0,'','20190315/o_1d5vkl2pe1t24a0f69ehka1j2aa.zip','zylc-1123');
+INSERT INTO `heart_admin_special` VALUES (97,'系统信息','',1553155477,1553155477,'index.html',0,'','20190319/o_1d6a0fnd38vm1nelp74450v1na.zip','2019-03-21/spe_5c934595105526.81626662','xtxx');
 /*!40000 ALTER TABLE `heart_admin_special` ENABLE KEYS */;
 
 #
@@ -124,15 +125,37 @@ CREATE TABLE `heart_admin_special_block` (
   `type` int(2) NOT NULL DEFAULT '0' COMMENT '0=ä»£ç å—-ç¼–è¾‘å™¨ 1=ä»£ç å—-æ–‡æœ¬æ¡† 2=æ•°æ®åˆ—è¡¨',
   `mid` int(11) NOT NULL DEFAULT '0' COMMENT 'æ¨¡åž‹ID',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=236 DEFAULT CHARSET=utf8;
 
 #
 # Data for table "heart_admin_special_block"
 #
 
 /*!40000 ALTER TABLE `heart_admin_special_block` DISABLE KEYS */;
-INSERT INTO `heart_admin_special_block` VALUES (16,50,'代码快编辑器','<p>代码快编辑器代码快编辑器代码快编辑器</p>',1482061245,1482061245,0,1),(17,50,'代码快文本框','代码快 文本框代码快 文本框',1482061265,1482061265,1,1),(18,50,'数据列表','数据列表数据列表',1482061318,1482061318,2,1),(20,50,'title','我换一下标题如何',1482061815,1482061815,1,0),(21,50,'nav_daohang','<ul class=\"ab_topnav list-paddingleft-2\" style=\"margin-left:50px;\"><li><p><a href=\"#\">芭乐首页123</a></p></li><li><p><a href=\"#\">影视312</a></p></li><li><p><a href=\"#\">节目</a></p></li><li><p><a href=\"#\">芭乐拍</a></p></li></ul>',1482062136,1482062136,0,0),(22,50,'nav_daohang1','<ul class=\"ab_topnav\" style=\"margin-left:50px;\">\r\n<li><a href=\"#\">芭乐首页</a></li>\r\n<li><a href=\"#\">影视</a></li>\r\n<li><a href=\"#\">节目</a></li>\r\n<li class=\"an4\"><a href=\"#\">芭乐拍</a></li>\r\n</ul>',1482068229,1482068229,1,0),(23,53,'ddd','<a href=\"http://baidu.com\">百度</a>',1552548362,1552548362,1,0),(27,55,'导语','<p>山东省政府近日批复《山东半岛城市群发展规划（2016－2030年）》，到2030年山东半岛城市群将力争全面建成核心竞争力强的现代化国家级城市群。山东半岛城市群的规划早在2005就已提出，而发展到今天，重新规划定义，其意义、潜力不言而喻，其优势何在？破局何在？</p>',1552553839,1552553839,0,0),(28,55,'其它','<p>测试</p>',1552554206,1552554206,1,1),(29,58,'新闻','<p>大厦</p>',1552619540,1552619540,0,0);
+INSERT INTO `heart_admin_special_block` VALUES (235,97,'新闻','<div><a href=\"$url\">$title</a></div>',1553242853,1553242853,2,13);
 /*!40000 ALTER TABLE `heart_admin_special_block` ENABLE KEYS */;
+
+#
+# Structure for table "heart_admin_special_data"
+#
+
+DROP TABLE IF EXISTS `heart_admin_special_data`;
+CREATE TABLE `heart_admin_special_data` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` text,
+  `createtime` int(11) DEFAULT NULL,
+  `updatetime` int(11) DEFAULT NULL,
+  `smid` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+#
+# Data for table "heart_admin_special_data"
+#
+
+/*!40000 ALTER TABLE `heart_admin_special_data` DISABLE KEYS */;
+INSERT INTO `heart_admin_special_data` VALUES (5,'{\"title\":\"给钱给政策 山东5年要培育30个省级创新创业共同体\",\"url\":\"http://sd.ifeng.com/a/20190322/7292161_0.shtml\"}',1553224534,1553224534,13),(6,'{\"keyword\":\"ffdasfsd21222\",\"description\":\"fdsfasf\"}',1553225966,1553235124,3),(7,'{\"title\":\"山东农村低保标准均达到省定扶贫线以上\",\"url\":\"http://sd.ifeng.com/a/20190322/7292145_0.shtml\"}',1553242359,1553242359,13),(8,'{\"title\":\"山东通报专升本考试作弊案\",\"url\":\"http://sd.ifeng.com/a/20190322/7292145_0.shtml\"}',1553242590,1553242590,13);
+/*!40000 ALTER TABLE `heart_admin_special_data` ENABLE KEYS */;
 
 #
 # Structure for table "heart_admin_special_model"
@@ -146,17 +169,17 @@ CREATE TABLE `heart_admin_special_model` (
   `type` int(2) NOT NULL COMMENT 'æ¨¡åž‹ç±»åˆ«',
   `createtime` int(11) NOT NULL DEFAULT '0',
   `updatetime` int(11) NOT NULL DEFAULT '0',
-  `field` text NOT NULL COMMENT 'å­—æ®µJSONåˆ—è¡¨',
-  `sid` int(11) NOT NULL DEFAULT '0' COMMENT 'æ‰€å±žä¸“é¢˜',
+  `field` text NOT NULL COMMENT '模型字段',
+  `sid` int(11) NOT NULL DEFAULT '0' COMMENT '隶属专题ID',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
 #
 # Data for table "heart_admin_special_model"
 #
 
 /*!40000 ALTER TABLE `heart_admin_special_model` DISABLE KEYS */;
-INSERT INTO `heart_admin_special_model` VALUES (1,'推荐模型11','推荐模型1',0,1481816526,1481899896,'[{\"type\":\"editor\",\"field_name\":\"a_1111\",\"name\":\"%E5%AD%97%E6%AE%B5%E5%88%AB%E5%90%8D123sfds\",\"description\":\"%E5%AD%97%E6%AE%B5%E7%AE%80%E4%BB%8B%E5%AD%97%E6%AE%B5%E7%AE%80%E4%BB%8B\",\"updatetime\":\"1481882102\",\"createtime\":\"1481882102\"},{\"type\":\"datetime\",\"field_name\":\"a55511\",\"name\":\"%E5%AD%97%E6%AE%B5%E5%88%AB%E5%90%8D123rew11\",\"description\":\"%E5%AD%97%E6%AE%B5%E7%AE%80%E4%BB%8Brewrew11\",\"updatetime\":\"1481883262\",\"createtime\":\"1481883262\"}]',0),(3,'专题111','专题1321312',0,1481901124,1481901124,'',0);
+INSERT INTO `heart_admin_special_model` VALUES (1,'推荐模型11','推荐模型1',0,1481816526,1481899896,'[{\"type\":\"editor\",\"field_name\":\"a_1111\",\"name\":\"%E5%AD%97%E6%AE%B5%E5%88%AB%E5%90%8D123sfds\",\"description\":\"%E5%AD%97%E6%AE%B5%E7%AE%80%E4%BB%8B%E5%AD%97%E6%AE%B5%E7%AE%80%E4%BB%8B\",\"updatetime\":\"1553234104\",\"createtime\":\"1553234104\"},{\"type\":\"datetime\",\"field_name\":\"a55511\",\"name\":\"%E5%AD%97%E6%AE%B5%E5%88%AB%E5%90%8D123rew11\",\"description\":\"%E5%AD%97%E6%AE%B5%E7%AE%80%E4%BB%8Brewrew11\",\"updatetime\":\"1481883262\",\"createtime\":\"1481883262\"},{\"type\":\"textarea\",\"field_name\":\"dfsdsfafwef\",\"name\":\"%E6%B5%8B%E8%AF%95\",\"description\":\"\",\"updatetime\":\"1553218607\",\"createtime\":\"1553218607\"},{\"type\":\"image\",\"field_name\":\"img\",\"name\":\"%E5%9B%BE%E7%89%87\",\"description\":\"\",\"updatetime\":\"1553222044\",\"createtime\":\"1553222044\"},{\"type\":\"images\",\"field_name\":\"moreimg\",\"name\":\"%E5%A4%9A%E5%9B%BE%E7%89%87\",\"description\":\"\",\"updatetime\":\"1553222167\",\"createtime\":\"1553222167\"}]',0),(3,'专题111','专题1321312',0,1481901124,1481901124,'[{\"type\":\"text\",\"field_name\":\"keyword\",\"name\":\"%E5%85%B3%E9%94%AE%E8%AF%8D\",\"description\":\"\",\"updatetime\":\"1553225923\",\"createtime\":\"1553225923\"},{\"type\":\"textarea\",\"field_name\":\"description\",\"name\":\"%E6%8F%8F%E8%BF%B0\",\"description\":\"\",\"updatetime\":\"1553225953\",\"createtime\":\"1553225953\"}]',0),(13,'新闻','',0,1553157039,1553157039,'[{\"type\":\"text\",\"field_name\":\"title\",\"name\":\"%E6%A0%87%E9%A2%98\",\"description\":\"\",\"updatetime\":\"1553157055\",\"createtime\":\"1553157055\"},{\"type\":\"text\",\"field_name\":\"url\",\"name\":\"%E9%93%BE%E6%8E%A5\",\"description\":\"\",\"updatetime\":\"1553157070\",\"createtime\":\"1553157070\"}]',97);
 /*!40000 ALTER TABLE `heart_admin_special_model` ENABLE KEYS */;
 
 #
