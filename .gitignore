@@ -1,2 +1,6 @@
-/resource/special
+/resource/special_origin
 /resource/upload
+/special
+/runtime/log
+/runtime/cache
+/runtime/upload

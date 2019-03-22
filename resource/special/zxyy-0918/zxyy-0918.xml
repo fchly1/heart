@@ -1,15 +1,25 @@
-
-    
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <title>测试</title>
+        <files>index.html</files>
+        <english_title>zxyy-0918</english_title>
+        <root_path>resource/special/zxyy-0918/</root_path>
+        <createtime>1552617600</createtime>
+    </head>
+    <body>
+        <page_index  page="index.html">
+    <![CDATA[
         <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-	<head >
+	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 		<meta http-equiv="X-UA-Compatible" content="IE=7" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title >仁心妙术 大医精诚——走进济南市中心医院脊柱外科_山东频道_凤凰网</title>
+		<title>仁心妙术 大医精诚——走进济南市中心医院脊柱外科_山东频道_凤凰网</title>
 		<meta name="keywords" content="脊柱外科、微创技术、龚维明、宋宏亮、PVP、PKP" />
 		<meta name="description" content="脊柱外科为济南市中心医院重点发展的优势专业，专门从事脊柱、脊髓疾病临床诊治的专业科室。位于目前唯一外科大楼9层，环境优越，开放床位16张，拥有6名医师，其中高级职称4人，博士学位2人，硕士学位2人。科室主持完成了山东省自然科学基金1项，厅局级课题9项。目前国内三级医院能开展的脊柱手术都已全面开展，在手术种类、复杂程度及成功率方面高于同级医院骨科平均水平。" />
 
@@ -292,13 +302,13 @@
 				color: #fff;
 			}
 		</style>
-		<link rel="stylesheet" type="text/css"  href="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/css/style.css" />
-		<link rel="stylesheet" type="text/css"  href="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/css/animate1.css"/>
-		<script src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/js/wow.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css"  href="http://localhost:9011/resource/special/zxyy-0918/css/style.css" />
+		<link rel="stylesheet" type="text/css"  href="http://localhost:9011/resource/special/zxyy-0918/css/animate1.css"/>
+		<script src="http://localhost:9011/resource/special/zxyy-0918/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://localhost:9011/resource/special/zxyy-0918/js/wow.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
-	<body >
+	<body>
 		<div id="topicheader">
 			<div id="speheader">
 				<div id="snlogo">
@@ -310,47 +320,47 @@
 							<a href="http://www.ifeng.com/" target="_blank" title="凤凰网山东首页">凤凰网首页</a>
 						</li>
 						<li class="new_index">|</li>
-						<li >
+						<li>
 							<a href="http://sd.ifeng.com/listpage/782/1/list.shtml" target="_blank" title="凤凰山东新闻早班车">新闻早班车</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/4202/1/list.shtml" target="_blank" title="凤观齐鲁">凤观齐鲁</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/794/1/list.shtml" target="_blank" title="图片">图片</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/4198/1/list.shtml" target="_blank" title="齐鲁名人会客厅">齐鲁名人</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/caijing/" target="_blank" title="财经">财经</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/lvyou/" target="_blank" title="旅游">旅游</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/4239/1/list.shtml" target="_blank" title="汽车">汽车</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/4251/1/list.shtml" target="_blank" title="文化">文化</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/4246/1/list.shtml" target="_blank" title="教育">教育</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/listpage/4233/1/list.shtml" target="_blank" title="时尚">时尚</a>
 						</li>
-						<li >|</li>
-						<li >
+						<li>|</li>
+						<li>
 							<a href="http://sd.ifeng.com/special/" target="_blank" title="凤凰山东专题频道">专题</a>
 						</li>
 					</ul>
@@ -366,7 +376,7 @@
 		<!-- 专题头部 -->
 		<div class="zt-head zt-box">
 			<div class="head-body zt-wrap">
-				<img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/headtit.png" class="headtit animated wow zoomIn" />
+				<img src="http://localhost:9011/resource/special/zxyy-0918/images/headtit.png" class="headtit animated wow zoomIn" />
 			</div>
 		</div>
 		<!-- 专题头部 -->
@@ -421,7 +431,7 @@
 				color: #0083c4;
 				font-weight: 700;
 				font-family: "微软雅黑";
-				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/videoliico.png);
+				background: url(images/videoliico.png);
 				background-position: 28px center;
 				background-repeat: no-repeat;
 				white-space:nowrap; 
@@ -429,20 +439,20 @@
 			
 			.ifengVideo .ifengVideo_right_con ul li.current,
 			.ifengVideo .ifengVideo_right_con ul li:hover {
-				background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/videolibg-h.png);
+				background-image: url(images/videolibg-h.png);
 			}
 			
 			.ifengVideo .ifengVideo_right_con ul li a:hover,
 			.ifengVideo .ifengVideo_right_con ul li.current a {
 				/*color: #fff;*/
-				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/videoliico.png) 28px center no-repeat;
+				background: url(images/videoliico.png) 28px center no-repeat;
 			}
 		</style>
 		<div class="netviewvideo zt-box">
 			<div class="netviewvideo-body zt-wrap">
 				<div class="ifengVideo">
 					<div class="ifengVideo_left animated slideInRight wow" id="playerDiv">
-						<img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/video-img1.png" />
+						<img src="http://localhost:9011/resource/special/zxyy-0918/images/video-img1.png" />
 					</div>
 					<div class="ifengVideo_right animated slideInLeft wow">
 						<!--<div class="ifengVideo_right_title"><img src="http://y3.ifengimg.com/05d7c5c07c1ed4f3/2014/0915/rdn_5416ac5036169.jpg" alt="本期导视" /></div>-->
@@ -492,7 +502,7 @@
 		<div class="technical zt-box">
 			<div class="technical-body zt-wrap">
 				<div class="part2_cont">
-					<style >
+					<style>
 						.box04 {
 							height: 104px;
 							/*margin-top: 20px;*/
@@ -511,7 +521,7 @@
 						.box04 ul li {
 							width: 250px;
 							height: 104px;
-							background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/lirightbg.gif) right center no-repeat;
+							background: url(images/lirightbg.gif) right center no-repeat;
 							background-color: #fff;
 							/*padding: 16px 10px 25px 10px;*/
 							overflow: hidden;
@@ -552,7 +562,7 @@
 						}
 						
 						.box04 ul .hover {
-							/*background: #e6e6e6 url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/move01_on2.gif) no-repeat left bottom;*/
+							/*background: #e6e6e6 url(images/move01_on2.gif) no-repeat left bottom;*/
 						}
 						
 						.box05 {
@@ -664,14 +674,14 @@
 						.box04tips {
 							width: 250px;
 							height: 12px;
-							background-image: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/move01_on3.png);
+							background-image: url(images/move01_on3.png);
 							background-repeat: no-repeat;
 							background-position: top center;
 							position: absolute;
 							top: 99px;
 						}
 					</style>
-					<style >
+					<style>
 						.label5 {
 							background: url(http://y0.ifengimg.com/package/special_20150724_49682/img/tl_2.gif) repeat-x top center;
 							height: 31px;
@@ -744,41 +754,41 @@
 							<ul class="clearfix">
 								<li id="sanlt1" class="">
 									<div class="pic">
-										<img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
+										<img src="http://localhost:9011/resource/special/zxyy-0918/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
 									</div>
 									<div class="txt">
-										<h3 >李昌文</h3>
-										<p >济宁市委常委、宣传部长</p>
+										<h3>李昌文</h3>
+										<p>济宁市委常委、宣传部长</p>
 									</div>
 								</li>
 								<li id="sanlt2" class="">
 									<div class="pic">
-										<img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
+										<img src="http://localhost:9011/resource/special/zxyy-0918/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
 
 									</div>
 									<div class="txt">
-										<h3 >王志民</h3>
-										<p >省政协原副主席、孟子研究院特聘院长</p>
+										<h3>王志民</h3>
+										<p>省政协原副主席、孟子研究院特聘院长</p>
 									</div>
 								</li>
 								<li id="sanlt3" class="">
 									<div class="pic">
-										<img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
+										<img src="http://localhost:9011/resource/special/zxyy-0918/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
 
 									</div>
 									<div class="txt">
-										<h3 >董乃强</h3>
-										<p >北京师范教授、中华母亲节促进会理事</p>
+										<h3>董乃强</h3>
+										<p>北京师范教授、中华母亲节促进会理事</p>
 									</div>
 								</li>
 								<li id="sanlt4" class="hover">
 									<div class="pic">
-										<img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
+										<img src="http://localhost:9011/resource/special/zxyy-0918/images/photo1.png" width="101" height="115" title="李昌文" alt="李昌文">
 
 									</div>
 									<div class="txt">
-										<h3 >吕明晰</h3>
-										<p >山东电视台“天下父母”总导演</p>
+										<h3>吕明晰</h3>
+										<p>山东电视台“天下父母”总导演</p>
 									</div>
 								</li>
 
@@ -791,8 +801,8 @@
 						<div class="box05 clearfix animated bounceInLeft" id="con_sanlt_1" style="display: none;">
 							<div class="txt_list">
 								<div class="txt" style="margin-top:95px;">
-									<h3 ><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">邹城家风文化、母教文化丰富</a></h3>
-									<p >
+									<h3><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">邹城家风文化、母教文化丰富</a></h3>
+									<p>
 										济宁市委常委、宣传部长李昌文在致辞中表示，邹城是孔孟之乡，运河之都，物华天宝，人杰地灵。邹城家风文化、母教文化丰富，“孟母三迁”“断机教子”的故事广为流传。相信此次论坛的举办，必将促进邹城乃至济宁传统文化的创新发展。
 										<a href="###" target="_blank">[详情]</a>
 									</p>
@@ -806,15 +816,15 @@
 								<div class="textbg"></div>
 								<div class="text">
 									<p style="font:20px Microsoft YaHei">李昌文</p>
-									<p >山东省济宁市委常委、宣传部长</p>
+									<p>山东省济宁市委常委、宣传部长</p>
 								</div>
 							</div>
 						</div>
 						<div class="box05 clearfix animated bounceInLeft" id="con_sanlt_2 " style="display: none;">
 							<div class="txt_list">
 								<div class="txt" style="margin-top:95px;">
-									<h3 ><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">王志民：邹鲁之风就是一种读书的风气</a></h3>
-									<p >
+									<h3><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">王志民：邹鲁之风就是一种读书的风气</a></h3>
+									<p>
 										“‘子不学，断机杼’。读书和向善是孟母教子的核心问题。”山东省政协原副主席、山东师范大学齐鲁文化研究中心首席专家、孟子研究院特聘院长王志民在主题发言《邹鲁之风：中国传统优良家风的文化根基》中讲到。 王志民说，邹鲁之风就是一种读书的风气，感染了孟母，孟母教育了孩子。“子不学，断机杼”。“仁义礼智非由外铄我也，我固有之也。”王志民认为孟子的性善论，从孟母那里获得了这种基因。
 										<a href="###" target="_blank">[详情]</a>
 									</p>
@@ -828,15 +838,15 @@
 								<div class="textbg"></div>
 								<div class="text">
 									<p style="font:20px Microsoft YaHei">王志民</p>
-									<p >山东省政协原副主席、孟子研究院特聘院长</p>
+									<p>山东省政协原副主席、孟子研究院特聘院长</p>
 								</div>
 							</div>
 						</div>
 						<div class="box05 clearfix animated bounceInLeft" id="con_sanlt_3" style="display: none;">
 							<div class="txt_list">
 								<div class="txt" style="margin-top:95px;">
-									<h3 ><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">董乃强：爱母分为多个层次</a></h3>
-									<p >
+									<h3><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">董乃强：爱母分为多个层次</a></h3>
+									<p>
 										北京师范大学教授、中华母亲节促进会理事董乃强在《新时期如何挖掘传承优良家风》主题发言中强调，爱母恐怕还要有几个层次：第一个层次是尊敬、遵从、服从母亲；第二个层次应该是让母亲不犯错误。有的母亲很着急，可能出现这样那样的错误。作为孩子来讲，是站在母亲这边，加剧矛盾还是解决矛盾？崇高的品德不是生来就有的，而是培养和潜移默化的结果。爱母的最高层次，是培养母亲、提高母亲的素质。
 										<a href="###" target="_blank">[详情]</a>
 									</p>
@@ -850,15 +860,15 @@
 								<div class="textbg"></div>
 								<div class="text">
 									<p style="font:20px Microsoft YaHei">董乃强</p>
-									<p >北京师范大学教授、中华母亲节促进会理事</p>
+									<p>北京师范大学教授、中华母亲节促进会理事</p>
 								</div>
 							</div>
 						</div>
 						<div class="box05 clearfix animated bounceInLeft" id="con_sanlt_4" style="display: block;">
 							<div class="txt_list">
 								<div class="txt" style="margin-top:95px;">
-									<h3 ><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">吕明晰：中华母亲节多一个“教育”的主题</a></h3>
-									<p >
+									<h3><a href="http://sd.ifeng.com/special/qljfkjysjmjjflt/" target="_blank">吕明晰：中华母亲节多一个“教育”的主题</a></h3>
+									<p>
 										中华母亲节跟其他70多个母亲节不一样，中华母亲节多了一个“教育”的主题，也是一个彰显中华母亲教育的节日。在教育母亲方面，中华传统文化有着不可替代的优势，举办这场活动真是功德无量。
 										<a href="###" target="_blank">[详情]</a>
 									</p>
@@ -872,7 +882,7 @@
 								<div class="textbg"></div>
 								<div class="text">
 									<p style="font:20px Microsoft YaHei">吕明晰</p>
-									<p >山东电视台“天下父母”总导演</p>
+									<p>山东电视台“天下父母”总导演</p>
 								</div>
 							</div>
 						</div>
@@ -881,7 +891,7 @@
 
 				</div>
 			</div>
-			<script src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="http://localhost:9011/resource/special/zxyy-0918/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 			<script type="text/javascript">
 				$('.box04 ul li').hover(function() {
 					$index = $(this).index();
@@ -965,13 +975,13 @@
 			}
 			
 			.SelectScrollPN span.prev {
-				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/leftbgbtn.png)  left center no-repeat;
+				background: url(images/leftbgbtn.png)  left center no-repeat;
 				padding-left: 5px;
 			}
 			
 			.SelectScrollPN span.next {
 				right: 0;
-				background: url(http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/rightbgbtn.png) right center  no-repeat;
+				background: url(images/rightbgbtn.png) right center  no-repeat;
 			}
 			
 			.RingCareBox .SelectScrollBtn {
@@ -1003,77 +1013,77 @@
 								<div class="tempWrap" style="overflow:hidden; position:relative; width:1000px">
 									<ul id="s_ul" style="left: -1000px; width: 12000px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
 										<li class="clone" style="float: left; width: 1000px;">
-											<a > <img src="http://localhost:9011/resource/special_origin/2019-03-21/spe_5c934595105526.81626662/images/styleimg1.png" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://localhost:9011/resource/special/zxyy-0918/images/styleimg1.png" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												适应场地。
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left">
-											<a > <img src="http://p1.ifengimg.com/a/2016_26/0d540336540fa80.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p1.ifengimg.com/a/2016_26/0d540336540fa80.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left; ">
-											<a > <img src="http://p2.ifengimg.com/a/2016_26/0cd8bb66ed4319c.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p2.ifengimg.com/a/2016_26/0cd8bb66ed4319c.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left; ">
-											<a > <img src="http://p0.ifengimg.com/a/2016_26/ad58e01ed61e621.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p0.ifengimg.com/a/2016_26/ad58e01ed61e621.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left;">
-											<a > <img src="http://p1.ifengimg.com/a/2016_26/6707df7adcf9406.jpg" thumb="" alt=" 第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p1.ifengimg.com/a/2016_26/6707df7adcf9406.jpg" thumb="" alt=" 第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left; ">
-											<a > <img src="http://p1.ifengimg.com/a/2016_26/780c90d58b1ca7b.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p1.ifengimg.com/a/2016_26/780c90d58b1ca7b.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left;">
-											<a > <img src="http://p1.ifengimg.com/a/2016_26/ae5f2cb98ca7809.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p1.ifengimg.com/a/2016_26/ae5f2cb98ca7809.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left;">
-											<a > <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/527a3c3a89d99a9.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/527a3c3a89d99a9.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月23日上午，第十五届全国大学生机器人大赛在邹城拉开大幕。
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left; ">
-											<a > <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/8c9f16ed65335ef.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/8c9f16ed65335ef.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月23日上午，第十五届全国大学生机器人大赛在邹城拉开大幕。
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left; ">
-											<a > <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/3b5b3a2da2448ab.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/3b5b3a2da2448ab.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												适应场地。
 											</div>
 											<div class="wwbg"></div>
 										</li>
 										<li style="float: left; ">
-											<a > <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/e56f1c2e247a9d8.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p0.ifengimg.com/66990ad885422212/2016/25/e56f1c2e247a9d8.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												适应场地。
 											</div>
@@ -1081,7 +1091,7 @@
 										</li>
 
 										<li class="clone" style="float: left; ">
-											<a > <img src="http://p1.ifengimg.com/a/2016_26/0d540336540fa80.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
+											<a> <img src="http://p1.ifengimg.com/a/2016_26/0d540336540fa80.jpg" thumb="" alt="第十五届全国大学生机器人大赛" data-pinit="registered"> </a>
 											<div class="ww">
 												6月24日，赛程第二天，在预选赛中胜出的32支战队为即将举行的初赛小组循环赛
 											</div>
@@ -1096,16 +1106,16 @@
 							</div>
 							<div class="scrollPage">
 								<span class="on" style="background-position: -11px 0px;"></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
-								<span ></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
 							</div>
 						</div>
 					</div>
@@ -1130,7 +1140,7 @@
 		<!-- 结语 -->
 		<div class="pilogue zt-box">
 			<div class="pilogue-body zt-wrap">
-				<p >
+				<p>
 					读书和向善是孟母饺子的核心问题。过去三年的拼搏和紧张的高考在这个炎热的夏季落下帷幕，你马上就要背上行囊，跨入梦寐以求的大学，开启一个完全不同的学习环境和生活空间。大学是一个熔炉，积极奋进的人会通过它的试炼，愿你能够不负青春不负己，不负年华不负心，用张扬自信，执着认真，为大学生活书写精彩，留一段无悔的经历！
 				</p>
 			</div>
@@ -1274,7 +1284,7 @@
 
 		<!--网友评论 begin-->
 		<div class="wrapper">
-			<script >
+			<script>
 				var cmt_config = {
 					'docTitle': "台湾高雄发生6.4级强震",
 					'docUrl': "http://news.ifeng.com/taiwan/special/twgxfs64jqz/", // 所属页面地址
@@ -1284,14 +1294,14 @@
 					'newLimit': 2
 				};
 			</script>
-			<script >
+			<script>
 				cmt_config.cmtViewUrl = 'http://gentie.ifeng.com/view.html';
 				cmt_config.cmtViewSpecialUrl = 'http://gentie.ifeng.com/view.html';
 			</script>
 			<script src="http://y0.ifengimg.com/fe/detail/scripts/base-core_5664eba4.min.js"></script>
 			<div id="js_cmtContainer"></div>
 			<!--注意噢，这个div的ID跟下面创建组件时传入的参数一支-->
-			<script >
+			<script>
 				// 此处为各终端上，评论组件的样式文件。可自己订制～
 				if(glue.device.type == "pc") {
 					document.write('<link rel="stylesheet" href="http://y0.ifengimg.com/a/2015/1030/yhc/detail_depmodules_pc_fc58ea2a.min.css">');
@@ -1357,7 +1367,7 @@
 
 		<!--start底部导航通用-->
 
-		<style >
+		<style>
 			.chaFotNav ul,
 			.chaFotNav li {
 				margin: 0px;
@@ -1512,70 +1522,70 @@
 
 		<div class="chaFotNav" style="margin-top:10px;">
 			<ul class="endNList">
-				<li >
+				<li>
 					<a href="http://www.ifeng.com/" target="_blank">首页</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://news.ifeng.com/" target="_blank">资讯</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://news.ifeng.com/taiwan/" target="_blank">台湾</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://opinion.ifeng.com/" target="_blank">评论</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://finance.ifeng.com/" target="_blank">财经</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://auto.ifeng.com/" target="_blank">汽车</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://tech.ifeng.com/" target="_blank">科技</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://house.ifeng.com/" target="_blank">房产</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://yayun2010.ifeng.com/" target="_blank">亚运</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://ent.ifeng.com/" target="_blank">娱乐</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://fashion.ifeng.com/" target="_blank">时尚</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://news.ifeng.com/sports/" target="_blank">体育</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://news.ifeng.com/mil/" target="_blank">军事</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://news.ifeng.com/history/" target="_blank">历史</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://book.ifeng.com/" target="_blank">读书</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://edu.ifeng.com/" target="_blank">教育</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://health.ifeng.com/" target="_blank">健康</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://baby.ifeng.com/" target="_blank">亲子</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://games.ifeng.com/" target="_blank">游戏</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://city.ifeng.com/" target="_blank">城市</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://bbs.ifeng.com/" target="_blank">论坛</a>
 				</li>
-				<li >
+				<li>
 					<a href="http://blog.ifeng.com/" target="_blank">博报</a>
 				</li>
 				<li class="end">
@@ -1613,7 +1623,7 @@
 			<div class="copyright"> 凤凰新媒体 版权所有<br> Copyright © 2013 Phoenix New Media Inc. All Rights Reserved. </div>
 		</div>
 		<!--end底部导航通用-->
-		<script >
+		<script>
 			var sta_collection_time = new Date().getTime();
 		</script>
 
@@ -1646,4 +1656,7 @@
 	</body>
 
 </html>
-    
+    ]]>
+</page_index>
+    </body>
+</root>
