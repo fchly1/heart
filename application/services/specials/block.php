@@ -68,7 +68,13 @@ class block extends controller {
             $v = str_replace( '"', '', $v );
 
             $infos = $this->get_block( $v );
-            $html = str_replace( $m[0][$k], $infos['content'], $html );
+            if($infos['type'] == 2){
+                $rs = $this->block_list($infos);
+                $html = str_replace( $m[0][$k], $rs, $html );
+            }else{
+                $html = str_replace( $m[0][$k], $infos['content'], $html );
+            }
+
         }
         $this->html = $html;
     }
@@ -131,7 +137,7 @@ class block extends controller {
  * */
     public function compile_get() {
         $html = $this->html;
-        $html = preg_replace('/(\s)lark-source=[^\s]*/','',$html);
+        $html = preg_replace('/(\s)lark-source=[^\s]*\"/','',$html);
         return $html;
     }
 
@@ -142,7 +148,8 @@ class block extends controller {
      * @return string
      */
     public function block_list($arr){
-        $where = 'smid='.$arr['mid'];
+
+        $where = 'smid='.$arr['mid'].' AND sbid='.$arr['id'];
         //模型下的数据
         $mData = $this->db_special_data->select_lists( '*', $where, '10', 'id DESC');
         $result = '';

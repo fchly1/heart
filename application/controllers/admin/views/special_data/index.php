@@ -14,14 +14,14 @@
 
         <header>
             <header class="panel-heading">
-                <a href="<?=make_url( __M__, __C__, 'index', [ 'sid='.$id ] )?>" class="btn btn-info btn-sm" id="index-listing">
+                <a href="javascript:void(0)" class="btn btn-info btn-sm" id="index-listing">
                     <i class="icon-gears2 btn-icon"></i>
                     <?php if( !empty( $special_infos ) ):?>
                         <?=$special_infos['name']?> -
                     <?php endif;?>
                     模型数据列表
                 </a>
-                <a href="<?=make_url( __M__, __C__, 'add', [ 'smid='.$id ] )?>" class="btn btn-default btn-sm" id="index-add">
+                <a href="<?=make_url( __M__, __C__, 'add', [ 'smid='.$id,'sid='.$sid ] )?>" class="btn btn-default btn-sm" id="index-add">
                     <i class="icon-plus btn-icon"></i>添加模型数据
                 </a>
             </header>
@@ -34,6 +34,7 @@
                     <tr>
                         <th class="tablehead">ID</th>
                         <th class="tablehead">数据内容</th>
+                        <th class="tablehead">隶属碎片</th>
                         <th class="tablehead">创建时间</th>
                         <th class="tablehead">操作</th>
                     </tr>
@@ -61,10 +62,17 @@
                                 </tbody>
                             </table>
                         </td>
+                        <td>
+                        <?php foreach( $spcial_block_infos as $sk => $sv ):?>
+                            <?php if( $sv['id'] == $v['sbid'] ):?>
+                                <?=$sv['name']?>
+                            <?php endif;?>
+                        <?php endforeach;?>
+                        </td>
                         <td><?=date( 'Y-m-d H:i:s', $v['createtime'] )?></td>
 
                         <td>
-                            <a href="<?=make_url( __M__, __C__, 'edit', ['id='.$v['id']] )?>" class="btn btn-primary btn-xs">修改</a>
+                            <a href="<?=make_url( __M__, __C__, 'edit', ['id='.$v['id'],'sid='.$sid] )?>" class="btn btn-primary btn-xs">修改</a>
                             <a href="javascript:void(0)" onclick="del('<?=make_url( __M__, __C__, 'del', ['id='.$v['id']] )?>', <?=$v['id']?>)" class="btn btn-danger btn-xs">删除</a>
                         </td>
                     </tr>

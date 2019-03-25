@@ -1,3 +1,0 @@
-[fatal] [2019.03.14 12:02:00] [Class '\controllers\resource\admin' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/resource/admin/js/modernizr-2.6.2-respond-1.1.0.min.js|127.0.0.1]
-[fatal] [2019.03.14 12:04:14] [Class '\controllers\admin\special_data' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/special_data/index|127.0.0.1]
-[fatal] [2019.03.14 12:04:16] [Class '\controllers\admin\special_data' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/admin/special_data/index|127.0.0.1]

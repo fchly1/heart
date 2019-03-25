@@ -1,2 +1,0 @@
-[fatal] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) 
-[fatal] [2019.03.14 09:47:30] [Call to a member function query() on null] [146行] [F:\work\heart-master\heart\libs\db\driver\pdo_mysql.php] [POST] [localhost:9011/admin/login/index|127.0.0.1]

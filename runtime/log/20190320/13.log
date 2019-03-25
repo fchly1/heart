@@ -1,5 +1,0 @@
-[error] [2019.03.20 13:17:29] [preg_replace(): Compilation failed: missing ) at offset 46] [87行] [F:\work\heart-master\application\services\specials\special.php] [POST] [localhost:9011/admin/special/add|127.0.0.1]
-[error] [2019.03.20 13:18:08] [preg_replace(): Compilation failed: missing ) at offset 46] [87行] [F:\work\heart-master\application\services\specials\special.php] [POST] [localhost:9011/admin/special/add|127.0.0.1]
-[fatal] [2019.03.20 13:56:04] [Class '\controllers\favicon.ico\index' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/favicon.ico|127.0.0.1]
-[fatal] [2019.03.20 13:56:10] [Class '\controllers\favicon.ico\index' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/favicon.ico|127.0.0.1]
-[fatal] [2019.03.20 13:59:49] [Class '\controllers\resource\admin' not found] [69行] [F:\work\heart-master\heart\libs\app.php] [GET] [localhost:9011/resource/admin/js/modernizr-2.6.2-respond-1.1.0.min.js|127.0.0.1]

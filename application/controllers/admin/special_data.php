@@ -19,11 +19,14 @@ class special_data extends admin_base{
     public function __construct() {
         parent::__construct();
 
-        //专题模型
+        //专题模型数据
         $this->db = load_model( 'admin_special_data' );
 
-        //专题数据
+        //专题模型
         $this->db_special_model = load_model( 'admin_special_model' );
+
+        //专题碎片
+        $this->db_special_block = load_model( 'admin_special_block' );
 
         //专题
         $this->db_special = load_model( 'admin_special' );
@@ -33,7 +36,7 @@ class special_data extends admin_base{
     }
 
     /*
-     * 数据模型列表页
+     * 模型下数据列表页
      *
      * @return tpl
      * */
@@ -46,8 +49,7 @@ class special_data extends admin_base{
             $_where[] = 'smid='.$smid;
         } else {
             //sid = 0 属于公共模型部分
-            //$_where[] = 'smid=0';
-
+            $_where[] = '1';
         }
 
 
@@ -61,11 +63,22 @@ class special_data extends admin_base{
 
         }
 
+        $sid = gpc( 'sid' );
+        $spcial_block_infos = [];
+        if( !empty( $sid ) ) {
+            //获取当前专题下的碎片列表（属于当前模型的）
+            $spcial_block_infos = $this->db_special_block->select_lists( '*','sid='.$sid.' AND type=2 AND mid='.$smid, '10', 'id ASC');
+        }else{
+            $spcial_block_infos = $this->db_special_block->select_lists( '*','type=2 ', '10', 'id ASC');
+        }
+
         $this->view->assign( 'page', $this->db->page );
         //专题信息
         $this->view->assign( 'special_infos', $special_infos );
+        $this->view->assign( 'spcial_block_infos', $spcial_block_infos );
         $this->view->assign( 'id', ( $smid ) ? $smid : 0 );
         $this->view->assign( 'lists', $lists );
+        $this->view->assign( 'sid', $sid);
         $this->view->display();
     }
 
@@ -97,11 +110,21 @@ class special_data extends admin_base{
             $spcial_infos = $this->db_special_model->get_one( 'id,name,field', [ 'id' => $smid ] );
         }
 
+        $sid = gpc( 'sid' );
+        $spcial_block_infos = [];
+        if( !empty( $sid ) ) {
+            //获取当前专题下的碎片列表（属于当前模型的）
+            $spcial_block_infos = $this->db_special_block->select_lists( '*','sid='.$sid.' AND type=2 AND mid='.$smid, '10', 'id ASC');
+        }else{
+            $spcial_block_infos = $this->db_special_block->select_lists( '*','type=2 AND mid='.$smid, '10', 'id ASC');
+        }
+
         $this->view->assign( 'editor', form::editor('content' , 'content', '', 'normal') );
         $this->view->assign('atta', form::attachment('' ,1 , 'infos[cover]', '', ''));
         $this->view->assign('attas', form::attachment('' ,3 , 'infos[covers]', '', ''));
 
         $this->view->assign( 'special_infos', $spcial_infos );
+        $this->view->assign( 'spcial_block_infos', $spcial_block_infos );
         $this->view->assign( 'smid', ( !empty( $smid ) ) ? $smid : 0 );
         $this->view->assign( 'field', json_decode($spcial_infos['field'], true));
         $this->view->display();
@@ -116,8 +139,6 @@ class special_data extends admin_base{
         if( gpc( 'dosubmit', 'P' ) ) {
             $infos = gpc( 'infos', 'P' );
             $id= gpc( 'id', 'P' );
-
-
 
             if( empty( $infos['content'] ) ) $this->show_message( '系统错误' );
 
@@ -145,6 +166,16 @@ class special_data extends admin_base{
             $spcial_infos = $this->db_special_model->get_one( 'id,name,field', [ 'id' => $infos['smid'] ] );
         }
 
+        $sid = gpc( 'sid' );
+        $spcial_block_infos = [];
+        if( !empty( $sid ) ) {
+            //获取当前专题下的碎片列表（属于当前模型的）
+            $spcial_block_infos = $this->db_special_block->select_lists( '*','sid='.$sid.' AND type=2 AND mid='.$infos['smid'], '10', 'id ASC');
+        }else{
+            $spcial_block_infos = $this->db_special_block->select_lists( '*','type=2 AND mid='.$infos['smid'], '10', 'id ASC');
+        }
+
+
         $spcial_infos['field'] = json_decode($spcial_infos['field'],true);
 
         $infos['content'] = json_decode($infos['content'],true);
@@ -165,6 +196,7 @@ class special_data extends admin_base{
 
         $this->view->assign( 'infos', $infos );
         $this->view->assign( 'special_infos', $spcial_infos );
+        $this->view->assign( 'spcial_block_infos', $spcial_block_infos );
         $this->view->assign( 'field',  $spcial_infos['field'] );
         $this->view->display();
     }

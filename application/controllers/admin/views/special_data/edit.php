@@ -51,6 +51,25 @@
                 </div>
                 <?php endif;?>
 
+                <?php if( !empty( $spcial_block_infos ) ):?>
+                    <div class="form-group">
+                        <label class="col-sm-2 col-xs-4 control-label">所属碎片</label>
+                        <div class="col-lg-3 col-sm-4 col-xs-4 input-group">
+                            <select name="infos[sbid]" id="sbid" class="form-control">
+                                <option value="0" >请选择碎片</option>
+                                <?php foreach( $spcial_block_infos as $k => $v ):?>
+                                    <?php if( $v['id'] == $infos['sbid'] ):?>
+                                        <option value="<?=$v['id']?>" selected><?=$v['name']?></option>
+                                    <?php endif;?>
+                                    <?php if( $v['id'] !== $infos['sbid'] ):?>
+                                        <option value="<?=$v['id']?>" ><?=$v['name']?></option>
+                                    <?php endif;?>
+                                <?php endforeach;?>
+                            </select>
+                        </div>
+                    </div>
+                <?php endif;?>
+
                 <?php foreach( $field as $k => $v ):?>
                     <?php if( $v['type'] == 'text' ):?>
                         <div class="form-group">
